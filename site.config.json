@@ -1,0 +1,11 @@
+{
+  "nome": "Atto",
+  "url_base": "",
+  "descricao": "Ofertas de eletrônicos checadas em fontes verificadas, com preço exato, data e hora da checagem e análise de quando comprar.",
+  "proposito": "A busca pela melhor oferta já foi feita. Aqui está o preço verdadeiro de cada oferta, com data e hora da checagem, e se vale comprar agora ou esperar.",
+  "assinatura": "Vinícius Benedetti",
+  "contato_email": null,
+  "afiliados": true,
+  "cloudflare_analytics_token": null,
+  "limite_desatualizado_horas": 24
+}

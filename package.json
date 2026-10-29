@@ -1,0 +1,14 @@
+{
+  "name": "atto",
+  "private": true,
+  "type": "module",
+  "description": "Site estático da Atto: publica o relatório diário de ofertas.",
+  "scripts": {
+    "build": "node scripts/build.mjs && node scripts/test-precos.mjs",
+    "test": "node scripts/test-precos.mjs",
+    "serve": "node scripts/serve.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

@@ -1,0 +1,278 @@
+{
+  "schema": 1,
+  "exemplo": true,
+  "gerado_em": "2026-10-29T10:30:00-03:00",
+  "analise": {
+    "autor": "Vinícius Benedetti",
+    "apoio_ia": true
+  },
+  "resumo": "Dois consoles PS5 Slim Digital abaixo do preço sugerido pela Sony. Notebooks com i3-1315U seguem acima do menor preço conhecido. Tablets sem preço checado nesta coleta.",
+  "categorias": [
+    {
+      "id": "notebooks",
+      "nome": "Notebooks",
+      "status": "ok",
+      "criterio": "Intel Core i3 série U de 12ª geração ou superior (ou Intel Core 3), Windows 11, mínimo de 8GB de RAM e 256GB de SSD."
+    },
+    {
+      "id": "tablets",
+      "nome": "Tablets",
+      "status": "falha",
+      "criterio": "Android, mínimo de 8GB de RAM e 256GB de armazenamento.",
+      "motivo": "A listagem de tablets do Promobit retornou erro e os resumos de busca vieram sem preço. Os últimos preços conhecidos são de 26/10/2026 e não foram revalidados."
+    },
+    {
+      "id": "ps5",
+      "nome": "PlayStation 5",
+      "status": "ok",
+      "criterio": "PS5 Slim Digital, Slim com disco, Pro e pacotes."
+    }
+  ],
+  "ofertas": [
+    {
+      "id": "ps5-slim-digital-astro-gt7-amazon",
+      "categoria": "ps5",
+      "nome": "PlayStation 5 Slim Digital 825GB + Astro Bot e Gran Turismo 7",
+      "especificacoes": "Console sem leitor de disco, 825GB, 2 jogos incluídos",
+      "codigo_modelo": null,
+      "imagem": null,
+      "loja": "Amazon.com.br",
+      "vendedor": null,
+      "fonte_verificada": false,
+      "url_produto": "https://www.amazon.com.br/PlayStation%C2%AE5-Digital-Pacote-ASTRO-Turismo/dp/B0F7Z9F9SD",
+      "url_loja": "https://www.amazon.com.br/",
+      "afiliado": false,
+      "status": "ok",
+      "preco": { "valor": "3783.12", "condicao": null },
+      "parcelamento": null,
+      "referencia": { "rotulo": "Preço sugerido Sony (digital)", "valor": "4599.90" },
+      "variacao": "-17,8% em relação ao preço sugerido Sony",
+      "checado_em": "2026-10-28T14:13:00-03:00",
+      "checado_via": "listagem do Promobit",
+      "veredito": {
+        "tipo": "comprar",
+        "motivo": "Preço 17,8% abaixo do sugerido pela Sony, com dois jogos incluídos. O vendedor não foi identificado: confirme na página que é a Amazon.",
+        "base": "Promobit, 28/10/2026 14:13; preço sugerido Sony"
+      },
+      "como_chegar": [
+        { "rotulo": "Por código (ASIN)", "texto": "B0F7Z9F9SD" },
+        { "rotulo": "Por nome", "texto": "PlayStation 5 Slim Digital 825GB Pacote ASTRO BOT e Gran Turismo 7" }
+      ]
+    },
+    {
+      "id": "ps5-slim-digital-mercado-livre",
+      "categoria": "ps5",
+      "nome": "PlayStation 5 Slim Digital 825GB (console)",
+      "especificacoes": "Console sem leitor de disco, 825GB. A listagem não cita jogos incluídos",
+      "codigo_modelo": null,
+      "imagem": null,
+      "loja": "Mercado Livre",
+      "vendedor": null,
+      "fonte_verificada": false,
+      "url_produto": null,
+      "url_loja": "https://www.mercadolivre.com.br/",
+      "afiliado": false,
+      "status": "ok",
+      "preco": { "valor": "3999.00", "condicao": null },
+      "parcelamento": null,
+      "referencia": { "rotulo": "Preço sugerido Sony (digital)", "valor": "4599.90" },
+      "variacao": "-13,1% em relação ao preço sugerido Sony",
+      "checado_em": "2026-10-29T10:25:00-03:00",
+      "checado_via": "listagem do Promobit",
+      "veredito": {
+        "tipo": "comprar",
+        "motivo": "Preço 13,1% abaixo do sugerido pela Sony, mas o vendedor não foi identificado. Só vale a compra de Loja Oficial, Full ou MercadoLíder.",
+        "base": "Promobit, 29/10/2026 10:25; preço sugerido Sony"
+      },
+      "como_chegar": [
+        { "rotulo": "Por nome", "texto": "Console PlayStation 5 Slim Edição Digital 825GB" }
+      ]
+    },
+    {
+      "id": "hp-256r-g9-i3-1315u-kabum",
+      "categoria": "notebooks",
+      "nome": "HP 256R G9, Core i3-1315U, 8GB, 256GB SSD, Windows 11, 15,6\"",
+      "especificacoes": "Intel Core i3-1315U, 8GB de RAM, SSD de 256GB, Windows 11, tela de 15,6\"",
+      "codigo_modelo": "BQ9K8AT#AK4",
+      "imagem": null,
+      "loja": "KaBuM",
+      "vendedor": "Magalu",
+      "fonte_verificada": true,
+      "url_produto": "https://www.kabum.com.br/produto/873586/notebook-hp-256r-g9-intel-core-i3-1315u-8gb-ram-256gb-15-6-polegadas-windows-11-intel-uhd-graphics-bq9k8at-ak4",
+      "url_loja": "https://www.kabum.com.br/",
+      "afiliado": false,
+      "status": "ok",
+      "preco": { "valor": "3347.07", "condicao": "no Pix" },
+      "parcelamento": { "quantidade": 10, "valor": "359.90", "juros": false },
+      "referencia": { "rotulo": "Menor preço conhecido do i3-1315U (Amazon, dez/2025)", "valor": "2598.00" },
+      "variacao": "+28,8% em relação à referência",
+      "checado_em": "2026-10-28T14:13:00-03:00",
+      "checado_via": "página do produto na KaBuM",
+      "veredito": {
+        "tipo": "esperar",
+        "motivo": "Preço 28,8% acima do menor preço conhecido para este processador.",
+        "base": "Amazon, dez/2025; KaBuM, 28/10/2026 14:13"
+      },
+      "como_chegar": [
+        { "rotulo": "Por código KaBuM", "texto": "873586" },
+        { "rotulo": "Por código do modelo", "texto": "BQ9K8AT#AK4" }
+      ]
+    },
+    {
+      "id": "hp-256r-g9-i3-1315u-magalu",
+      "categoria": "notebooks",
+      "nome": "HP 256R G9, Core i3-1315U, 8GB, 256GB SSD, Windows 11, 15,6\"",
+      "especificacoes": "Intel Core i3-1315U, 8GB de RAM, SSD de 256GB, Windows 11, tela de 15,6\"",
+      "codigo_modelo": "BQ9K8AT#AK4",
+      "imagem": null,
+      "loja": "Magalu",
+      "vendedor": "Magalu",
+      "fonte_verificada": true,
+      "url_produto": null,
+      "url_loja": "https://www.magazineluiza.com.br/",
+      "afiliado": false,
+      "status": "ok",
+      "preco": { "valor": "3239.10", "condicao": "no Pix" },
+      "parcelamento": { "quantidade": 10, "valor": "359.90", "juros": false },
+      "referencia": { "rotulo": "Menor preço conhecido do i3-1315U (Amazon, dez/2025)", "valor": "2598.00" },
+      "variacao": "+24,7% em relação à referência",
+      "checado_em": "2026-10-29T10:25:00-03:00",
+      "checado_via": "listagem de busca do Magalu",
+      "veredito": {
+        "tipo": "esperar",
+        "motivo": "Preço 24,7% acima do menor preço conhecido para este processador e igual ao de 28/10.",
+        "base": "Magalu, 29/10/2026 10:25; Amazon, dez/2025"
+      },
+      "como_chegar": [
+        { "rotulo": "Por código do modelo", "texto": "BQ9K8AT#AK4" },
+        { "rotulo": "Por nome", "texto": "Notebook HP 256R G9 Intel Core i3 1315U 8GB 256GB 15,6 Windows 11" }
+      ]
+    },
+    {
+      "id": "lenovo-ideapad-1i-i3-1315u-magalu",
+      "categoria": "notebooks",
+      "nome": "Lenovo IdeaPad 1i, Core i3-1315U, 8GB, 256GB SSD, Windows 11, 15,6\"",
+      "especificacoes": "Intel Core i3-1315U, 8GB de RAM, SSD de 256GB, Windows 11, tela de 15,6\"",
+      "codigo_modelo": "83QJ0001BO",
+      "imagem": null,
+      "loja": "Magalu",
+      "vendedor": "Magalu",
+      "fonte_verificada": true,
+      "url_produto": null,
+      "url_loja": "https://www.magazineluiza.com.br/",
+      "afiliado": false,
+      "status": "ok",
+      "preco": { "valor": "3533.07", "condicao": "no Pix" },
+      "parcelamento": { "quantidade": 10, "valor": "379.90", "juros": false },
+      "referencia": { "rotulo": "Menor preço conhecido do i3-1315U (Amazon, dez/2025)", "valor": "2598.00" },
+      "variacao": "+36,0% em relação à referência",
+      "checado_em": "2026-10-29T10:25:00-03:00",
+      "checado_via": "listagem de busca do Magalu",
+      "veredito": {
+        "tipo": "esperar",
+        "motivo": "Preço 36,0% acima do menor preço conhecido para este processador.",
+        "base": "Magalu, 29/10/2026 10:25; Amazon, dez/2025"
+      },
+      "como_chegar": [
+        { "rotulo": "Por código do modelo", "texto": "83QJ0001BO" }
+      ]
+    },
+    {
+      "id": "samsung-galaxy-book4-i3-magalu",
+      "categoria": "notebooks",
+      "nome": "Samsung Galaxy Book4, Core i3, 8GB, 256GB SSD, Windows 11, 15,6\"",
+      "especificacoes": "Intel Core i3, 8GB de RAM, SSD de 256GB, Windows 11, tela de 15,6\"",
+      "codigo_modelo": "NP750XGJ-KG5BR",
+      "imagem": null,
+      "loja": "Magalu",
+      "vendedor": "Magalu",
+      "fonte_verificada": true,
+      "url_produto": null,
+      "url_loja": "https://www.magazineluiza.com.br/",
+      "afiliado": false,
+      "status": "ok",
+      "preco": { "valor": "3466.55", "condicao": "no Pix" },
+      "parcelamento": { "quantidade": 10, "valor": "364.90", "juros": false },
+      "referencia": { "rotulo": "Menor preço conhecido do i3-1315U (Amazon, dez/2025)", "valor": "2598.00" },
+      "variacao": "+33,4% em relação à referência",
+      "checado_em": "2026-10-29T10:25:00-03:00",
+      "checado_via": "listagem de busca do Magalu",
+      "veredito": {
+        "tipo": "esperar",
+        "motivo": "Preço 33,4% acima do menor preço conhecido para um i3 da mesma faixa.",
+        "base": "Magalu, 29/10/2026 10:25; Amazon, dez/2025"
+      },
+      "como_chegar": [
+        { "rotulo": "Por código do modelo", "texto": "NP750XGJ-KG5BR" }
+      ]
+    },
+    {
+      "id": "acer-aspire-go-15-ag15-51p-magalu",
+      "categoria": "notebooks",
+      "nome": "Acer Aspire Go 15 AG15-51P-35JZ, Core i3, 8GB, 256GB SSD, Windows 11",
+      "especificacoes": "Intel Core i3 (geração não informada na listagem), 8GB de RAM, SSD de 256GB, Windows 11",
+      "codigo_modelo": "NX.JGFAL.005",
+      "imagem": null,
+      "loja": "Magalu",
+      "vendedor": "Magalu",
+      "fonte_verificada": true,
+      "url_produto": null,
+      "url_loja": "https://www.magazineluiza.com.br/",
+      "afiliado": false,
+      "status": "ok",
+      "preco": null,
+      "parcelamento": { "quantidade": 10, "valor": "354.90", "juros": false },
+      "referencia": null,
+      "variacao": null,
+      "checado_em": "2026-10-29T10:25:00-03:00",
+      "checado_via": "listagem de busca do Magalu",
+      "veredito": {
+        "tipo": "sem_base",
+        "motivo": "A listagem não mostra o preço à vista nem a geração do processador, então não há como comparar com a referência.",
+        "base": "Magalu, 29/10/2026 10:25"
+      },
+      "como_chegar": [
+        { "rotulo": "Por código do modelo", "texto": "NX.JGFAL.005" }
+      ]
+    },
+    {
+      "id": "lenovo-ideapad-1-15iru7-kabum",
+      "categoria": "notebooks",
+      "nome": "Lenovo IdeaPad 1 15IRU7, Core i3-1315U, 8GB, 256GB SSD, Windows 11",
+      "especificacoes": "Intel Core i3-1315U, 8GB de RAM, SSD de 256GB, Windows 11, tela de 15,6\"",
+      "codigo_modelo": "83QJ0001BO",
+      "imagem": null,
+      "loja": "KaBuM",
+      "vendedor": "Cavuca",
+      "fonte_verificada": false,
+      "url_produto": "https://www.kabum.com.br/produto/904710/notebook-lenovo-ideapad-1-15iru7-intel-core-i3-1315u-8gb-256gb-ssd-windows-11-15-6-83qj0001bo-cloud-grey",
+      "url_loja": "https://www.kabum.com.br/",
+      "afiliado": false,
+      "status": "ok",
+      "preco": { "valor": "4478.56", "condicao": "à vista" },
+      "parcelamento": { "quantidade": 10, "valor": "471.42", "juros": false },
+      "referencia": { "rotulo": "Menor preço conhecido do i3-1315U (Amazon, dez/2025)", "valor": "2598.00" },
+      "variacao": "+72,4% em relação à referência",
+      "checado_em": "2026-10-29T10:25:00-03:00",
+      "checado_via": "página do produto na KaBuM",
+      "veredito": {
+        "tipo": "esperar",
+        "motivo": "Preço 72,4% acima da referência e maior que o de 26/10/2026. Vendido por terceiro na KaBuM.",
+        "base": "KaBuM, 29/10/2026 10:25; Amazon, dez/2025"
+      },
+      "como_chegar": [
+        { "rotulo": "Por código KaBuM", "texto": "904710" },
+        { "rotulo": "Por código do modelo", "texto": "83QJ0001BO" }
+      ]
+    }
+  ],
+  "coleta": {
+    "fontes_consultadas": ["Promobit", "Magalu", "KaBuM"],
+    "notas": [
+      "Funcionou: listagem de PS5 do Promobit, busca de notebooks i3-1315U no Magalu e página do IdeaPad 1 na KaBuM.",
+      "Falhou: listagem de tablets do Promobit (erro ao abrir) e resumos de busca sem preço nem data.",
+      "Amazon, Mercado Livre, Zoom, Buscapé, Pelando e Tecnoblog não foram abertos por regra da coleta; por isso não há média de preço de 40 dias.",
+      "Não houve tempo para as buscas de cupom do Mercado Livre, Magalu e Amazon."
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+# A rotina diária envia o relatório para um ramo claude/*. Este workflow aceita
+# só mudanças em data/, roda o build e o teste de preços com o código de main e,
+# se tudo passar, leva os dados para main e dispara a publicação.
+name: Integrar relatório da rotina
+
+on:
+  push:
+    branches: ['claude/**']
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: integrar-relatorio
+  cancel-in-progress: false
+
+jobs:
+  integrar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Aceitar só mudanças em data/
+        run: |
+          fora=$(git diff --name-only origin/main...HEAD | grep -v '^data/' || true)
+          if [ -n "$fora" ]; then
+            echo "A rotina só pode alterar arquivos em data/. Arquivos fora:"
+            echo "$fora"
+            exit 1
+          fi
+      - name: Aplicar os dados sobre main
+        run: |
+          cp -r data "$RUNNER_TEMP/data"
+          git checkout -B main origin/main
+          rm -rf data
+          cp -r "$RUNNER_TEMP/data" data
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Validar, gerar e testar preços
+        run: npm run build
+      - name: Gravar em main e disparar a publicação
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then
+            echo "Sem mudanças nos dados."
+          else
+            git commit -m "Relatório $(TZ=America/Sao_Paulo date +%d/%m/%Y)"
+            git push origin main
+          fi
+          git push origin --delete "$GITHUB_REF_NAME" || true
+          gh workflow run publicar.yml --ref main
