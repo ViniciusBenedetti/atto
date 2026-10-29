@@ -2,10 +2,48 @@
 
 Este arquivo é o contexto do projeto. Leia inteiro antes de escrever código e consulte sempre que houver dúvida de marca, tom ou design.
 
+## Mapa do projeto (comece por aqui)
+
+O site está no ar e se atualiza sozinho todo dia. Antes de mudar qualquer coisa, saiba onde cada peça vive:
+
+| Assunto | Fonte de verdade | Observação |
+|---|---|---|
+| Marca, tom, visual, regras de dado | Este arquivo | Muda a marca? Comece aqui e siga "Como mudar a marca" |
+| Método de coleta (o que a rotina faz) | `docs/PROCESSO-COLETA.md` | A rotina lê a cada execução |
+| Categorias, critérios, lojas, buscas, referências, limites | `config/coleta.json` | A rotina lê a cada execução |
+| Formato do relatório | `docs/RELATORIO.md` + `src/validar.mjs` | Contrato e validação andam juntos |
+| Prompt e configuração da rotina | `docs/ROTINA.md` | Cópia exata do que está em claude.ai/code/routines |
+| Publicação | `.github/workflows/` | `integrar-relatorio.yml` aceita só `data/` vindo da rotina |
+| Visual do site | `src/styles.css` (tokens), `src/render.mjs`, `src/paginas.mjs` | Tokens copiados da seção "Tokens (CSS)" deste arquivo |
+| Dados | `data/` | Escritos só pela rotina; correção manual segue o manual de operação |
+| Operação do dia a dia, incidentes, decisões | Manual de operação no Claude Docs: https://claude.ai/artifact/A9cJT83zsHppuUYKEmNzfj | Para quem opera o processo |
+
+- Repositório: https://github.com/ViniciusBenedetti/atto · Site: https://viniciusbenedetti.github.io/atto/
+- Rotina: "Web Year-End Discount Searcher (Atto)", `trig_01SCz5QaLSUgKDMLvp5fRSJK`, diária às 09:00 de Brasília, ambiente "Atto - Coleta" (rede liberada só para as lojas), sem conectores.
+- Validar antes de enviar: `npm run build` (valida, gera e roda o teste de preços; Node 20+, sem dependências).
+- A skill "radar-de-ofertas" e a página Radar de Ofertas são do processo antigo. Não use para o site.
+
+### Como mudar o escopo de produtos
+
+1. Categoria, critério, busca, loja ou referência: edite só `config/coleta.json` (aumente `versao`, atualize `atualizado_em`). O site cria a seção da categoria nova sozinho a partir do relatório.
+2. Rode a rotina uma vez manualmente e confira o relatório e `coleta.metricas`.
+3. Regra de veredito ou etapa do método: `docs/PROCESSO-COLETA.md` e, se tiver número, `limites` em `config/coleta.json`.
+
+### Como mudar a marca
+
+A marca não chega ao site sozinha: os valores são copiados deste arquivo para o código. Ao repaginar:
+
+1. Atualize este arquivo primeiro (tokens, tipografia, componentes, tom).
+2. Copie os tokens novos para `src/styles.css` (claro, escuro e o bloco `prefers-color-scheme`) e as fontes para o `<link>` em `src/render.mjs`.
+3. Componentes ou textos fixos: `src/render.mjs` e `src/paginas.mjs`. Termos proibidos de tom: `src/validar.mjs` e `scripts/test-precos.mjs`.
+4. `npm run build`, confira no celular nos dois temas, publique.
+5. O texto que a rotina escreve (motivos, resumo) segue o tom novo na próxima execução, porque ela lê as seções "Regra de ouro" e "Tom de voz e conteúdo" deste arquivo a cada dia.
+6. Se o design system "Atto" no claude.ai também existir, atualize-o junto ou declare qual dos dois vale.
+
 ## Como trabalhar comigo
 
 - O dono do projeto é o Vinícius. Ele valida; você executa. Faça o trabalho em sprints curtas e entregáveis, sem planejar tudo antes.
-- Não assuma. Se faltar informação (stack, hospedagem, formato do relatório, domínio, monetização), pergunte antes de decidir. Ofereça uma recomendação junto com a pergunta.
+- As decisões técnicas estão delegadas a você (desde 29/10/2026): decida, registre o motivo e informe. Pergunte só o que exige ação ou escolha do Vinícius (contas, credenciais, publicar algo novo, mudança de marca, regra de negócio, custo).
 - Discorde e aponte riscos quando houver fundamento. Seja direto, sem rodeios e sem elogios.
 - Ao ajustar algo que você entregou, devolva o arquivo completo com a alteração aplicada, não só o trecho.
 - Responda em português do Brasil.
@@ -197,15 +235,22 @@ Todos recebem dados direto do relatório, sem transformar valores.
 - **Análise com tom de autoridade:** só publique veredito com base citada e linguagem de tendência.
 - **Nome e domínio:** verificar disponibilidade de domínio e registro da marca Atto (INPI) antes de investir na marca.
 
+## Decisões tomadas (29/10/2026)
+
+1. Stack e hospedagem: site estático gerado por Node sem dependências, publicado no GitHub Pages pelo GitHub Actions; repositório público.
+2. Relatório: JSON em `data/relatorio.json` (contrato em `docs/RELATORIO.md`), gravado pela rotina num ramo `claude/` e integrado por workflow.
+3. Frequência: diária às 09:00 de Brasília. O navegador de quem visita marca dado com mais de 24 horas como desatualizado.
+4. Monetização: links de afiliado previstos, aviso publicado; ainda sem programa ativo.
+5. Coleta: processo 2, com níveis de evidência; "comprar" exige preço confirmado na loja e fonte verificada (o build recusa o contrário).
+
+O registro completo de decisões e as pendências estão no manual de operação (seção 12).
+
 ## Decisões em aberto: pergunte ao Vinícius antes de assumir
 
-1. Stack e hospedagem do site (sugira opções com prós e contras antes de escolher).
-2. Formato do relatório do bot (peça um exemplo real) e como ele chega ao site: arquivo, API ou banco de dados.
-3. Frequência de atualização e como o site sabe que o dado está desatualizado.
-4. Monetização (afiliados, anúncios, nenhuma por enquanto) e o aviso de transparência correspondente.
-5. Domínio e canais de distribuição (WhatsApp, Instagram, link direto).
-6. Se a assinatura "Análise: Vinícius Benedetti" é a que ele quer, e se haverá foto no futuro.
-7. Alerta de preço ou newsletter: entram no primeiro lançamento?
+1. Domínio próprio e canais de distribuição (WhatsApp, Instagram, link direto).
+2. Se a assinatura "Análise: Vinícius Benedetti" é a definitiva, e se haverá foto no futuro.
+3. Alerta de preço, newsletter ou outra notificação para visitantes: quando e por qual canal.
+4. Indexação pelos buscadores (hoje permitida) e e-mail público de contato.
 
 ## Primeiras sprints sugeridas
 
