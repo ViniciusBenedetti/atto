@@ -6,7 +6,7 @@ const VALOR = /^\d+\.\d{2}$/;
 const SLUG = /^[a-z0-9]+(-[a-z0-9]+)*$/;
 const HTTPS = /^https:\/\/[^\s]+$/;
 
-// Termos proibidos pelo guia de tom (CLAUDE.md, "Tom de voz e conteúdo").
+// Termos proibidos pelo guia de tom (docs/MARCA.md, "Tom de voz e conteúdo").
 const PROIBIDOS = [
   /\bcorra\b/i,
   /imperd[ií]vel/i,

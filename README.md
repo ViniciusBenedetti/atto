@@ -1,6 +1,6 @@
 # Atto
 
-Site estático que publica o relatório diário de ofertas. Guia de marca e regras: `CLAUDE.md`.
+Site estático que publica o relatório diário de ofertas. Guia de marca (vale para toda a Atto): `docs/MARCA.md`. Regras do site e mapa do projeto: `CLAUDE.md`.
 
 ## Como funciona
 
