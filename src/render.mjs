@@ -26,8 +26,8 @@ const VEREDITO_ROTULO = { comprar: 'Comprar agora', esperar: 'Esperar', sem_base
 const EVIDENCIA_ROTULO = {
   pagina_produto: 'preço confirmado na página do produto',
   listagem_loja: 'preço confirmado na listagem da loja',
-  busca_loja: 'preço lido no resultado de busca da loja, página não aberta',
-  agregador: 'preço lido em agregador de ofertas, não confirmado na loja',
+  busca_loja: 'preço lido no resultado de busca da loja, sem abrir a página. O buscador não informa quando viu esse preço, que pode ser anterior à checagem',
+  agregador: 'preço lido em agregador de ofertas, não confirmado na loja. Pode ser anterior à checagem',
 };
 const VEREDITO_ICONE = { comprar: 'comprar', esperar: 'esperar', sem_base: 'sem_base' };
 
