@@ -15,6 +15,7 @@ A rotina grava este arquivo a cada execução. O site só formata o que está aq
 ```json
 {
   "schema": 1,
+  "processo": 2,
   "gerado_em": "2026-10-30T09:40:00-03:00",
   "analise": { "autor": "Vinícius Benedetti", "apoio_ia": true },
   "resumo": "Uma a três frases com a conclusão do dia.",
@@ -25,10 +26,23 @@ A rotina grava este arquivo a cada execução. O site só formata o que está aq
   "ofertas": [ { "...": "ver abaixo" } ],
   "coleta": {
     "fontes_consultadas": ["Promobit", "Magalu", "KaBuM"],
-    "notas": ["O que funcionou.", "O que falhou e por quê.", "O que não deu tempo."]
+    "notas": ["O que funcionou.", "O que falhou e por quê.", "O que não deu tempo."],
+    "metricas": {
+      "inicio": "2026-10-30T09:02:00-03:00",
+      "fim": "2026-10-30T09:38:00-03:00",
+      "buscas": 46,
+      "paginas_abertas": 14,
+      "candidatos": 21,
+      "publicadas": 12,
+      "por_evidencia": { "pagina_produto": 7, "listagem_loja": 2, "busca_loja": 2, "agregador": 1 },
+      "fonte_verificada": 9,
+      "acesso": { "kabum.com.br": "ok", "magazineluiza.com.br": "ok", "casasbahia.com.br": "bloqueado" }
+    }
   }
 }
 ```
+
+`coleta.metricas` é obrigatório a partir da versão 2 do processo. `publicadas` precisa ser igual ao número de ofertas; o build confere.
 
 Não inclua `"exemplo": true`: essa marca existe só nos dados de teste.
 
@@ -44,7 +58,8 @@ Não inclua `"exemplo": true`: essa marca existe só nos dados de teste.
 | `imagem` | URL https ou null | Imagem da fonte da oferta, sem edição. |
 | `loja` | texto | Nome da loja. |
 | `vendedor` | texto ou null | Quem vende de fato. |
-| `fonte_verificada` | true/false | true só para as lojas da lista FONTES CONFIÁVEIS da rotina com vendedor identificado (Amazon vendido por Amazon; Mercado Livre Loja Oficial, Full ou MercadoLíder; Magalu, KaBuM, Casas Bahia, Americanas, Fast Shop, Extra vendendo direto; loja oficial da marca). Vendedor desconhecido ou terceiro: false. |
+| `fonte_verificada` | true/false | true só quando a loja está em `lojas` de `config/coleta.json` e o vendedor lido nesta execução corresponde ao `vendedor_verificado` dela. Vendedor desconhecido ou terceiro: false. Com `evidencia` presente, true exige `vendedor` preenchido. |
+| `evidencia` | texto | Nível de evidência do preço (docs/PROCESSO-COLETA.md): `pagina_produto`, `listagem_loja`, `busca_loja` ou `agregador`. Obrigatório a partir da versão 2 do processo. "comprar" exige `pagina_produto` ou `listagem_loja` e fonte verificada; o build recusa o contrário. |
 | `url_produto` | URL https ou null | Página do produto na loja. Nunca encurtador ou afiliado de terceiros. |
 | `url_loja` | URL https | Página inicial da loja. |
 | `afiliado` | true/false | true se `url_produto` for link de afiliado da Atto. |
@@ -67,6 +82,9 @@ Não inclua `"exemplo": true`: essa marca existe só nos dados de teste.
 | ESPERAR | `esperar` | Esperar |
 | Para aprovação (fora do critério) | não entra no site | |
 | Não revalidado hoje (só o último preço conhecido) | entra com o `checado_em` original | O site mostra "Dado desatualizado" |
+| Pista de blog, fórum ou resumo sem loja | não entra no site | Fica só no markdown |
+
+As regras completas de cada veredito estão em `docs/PROCESSO-COLETA.md`, fase 3.
 
 ## Arquivo histórico
 

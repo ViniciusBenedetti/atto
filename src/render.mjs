@@ -23,6 +23,12 @@ export function icone(nome) {
 }
 
 const VEREDITO_ROTULO = { comprar: 'Comprar agora', esperar: 'Esperar', sem_base: 'Sem base suficiente' };
+const EVIDENCIA_ROTULO = {
+  pagina_produto: 'preço confirmado na página do produto',
+  listagem_loja: 'preço confirmado na listagem da loja',
+  busca_loja: 'preço lido no resultado de busca da loja, página não aberta',
+  agregador: 'preço lido em agregador de ofertas, não confirmado na loja',
+};
 const VEREDITO_ICONE = { comprar: 'comprar', esperar: 'esperar', sem_base: 'sem_base' };
 
 export const urlOferta = (o) => `/oferta/${o.id}/`;
@@ -106,7 +112,7 @@ function carimbo(ctx, o) {
   return `<div class="pilha-sm" data-checado="${esc(o.checado_em)}">
   <p class="carimbo stamp" data-estado="atual"${velho ? ' hidden' : ''}>${icone('relogio')}<span>Checado em <span data-carimbo="${esc(o.id)}">${dh}</span></span></p>
   <div class="aviso aviso-espera" data-estado="desatualizado"${velho ? '' : ' hidden'}>${icone('relogio')}<p class="body-sm"><span class="label rotulo">Dado desatualizado.</span> Última checagem em <span class="stamp" data-carimbo="${esc(o.id)}">${dh}</span>. O preço e o veredito podem ter mudado.</p></div>
-  <p class="caption">Origem do preço: ${esc(o.checado_via)}</p>
+  <p class="caption">Origem do preço: ${esc(o.checado_via)}${o.evidencia ? `; ${EVIDENCIA_ROTULO[o.evidencia]}` : ''}</p>
 </div>`;
 }
 
@@ -336,11 +342,17 @@ export function paginaInicial(ctx) {
 </section>`;
   });
 
+  const m = r.coleta?.metricas;
+  const confirmadas = m?.por_evidencia ? (m.por_evidencia.pagina_produto || 0) + (m.por_evidencia.listagem_loja || 0) : null;
+  const linhaMetricas = m && Number.isInteger(m.publicadas) && confirmadas !== null
+    ? `<p class="body-sm">${confirmadas} de ${m.publicadas} ofertas com preço confirmado na página ou na listagem da própria loja${Number.isInteger(m.fonte_verificada) ? `; ${m.fonte_verificada} com fonte verificada` : ''}.</p>`
+    : '';
   const notas = r.coleta?.notas?.length
     ? `<section class="secao">
   <details class="coleta">
     <summary>Como foi a coleta deste relatório</summary>
     <div class="conteudo pilha">
+      ${linhaMetricas}
       <ul class="body-sm">${r.coleta.notas.map((n) => `<li>${esc(n)}</li>`).join('')}</ul>
       ${r.coleta.fontes_consultadas?.length ? `<p class="caption">Fontes consultadas: ${r.coleta.fontes_consultadas.map(esc).join(', ')}.</p>` : ''}
     </div>

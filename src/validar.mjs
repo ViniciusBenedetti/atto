@@ -20,6 +20,10 @@ const PROIBIDOS = [
 const STATUS_CATEGORIA = ['ok', 'falha'];
 const STATUS_OFERTA = ['ok', 'falha', 'encerrada'];
 const VEREDITOS = ['comprar', 'esperar', 'sem_base'];
+// Níveis de evidência de docs/PROCESSO-COLETA.md. Só os dois primeiros sustentam "comprar".
+const EVIDENCIAS = ['pagina_produto', 'listagem_loja', 'busca_loja', 'agregador'];
+const EVIDENCIAS_COMPRA = ['pagina_produto', 'listagem_loja'];
+const ACESSOS = ['ok', 'bloqueado', 'erro'];
 
 export function validarRelatorio(r) {
   const erros = [];
@@ -48,6 +52,11 @@ export function validarRelatorio(r) {
 
   if (!r || typeof r !== 'object') return ['relatório: não é um objeto JSON'];
   if (r.schema !== 1) erro('schema', 'deve ser 1');
+  // Versão do processo de coleta (docs/PROCESSO-COLETA.md). A partir da 2, evidência e métricas são obrigatórias.
+  const processo = r.processo ?? 1;
+  if (![1, 2].includes(processo)) erro('processo', 'deve ser 1 ou 2');
+  const v2 = processo >= 2;
+  if (v2 && (!r.coleta || !r.coleta.metricas)) erro('coleta.metricas', 'obrigatório a partir do processo 2');
   iso('gerado_em', r.gerado_em);
   texto('resumo', r.resumo, { opcional: true });
   if (!r.analise || typeof r.analise !== 'object') erro('analise', 'obrigatório');
@@ -120,6 +129,18 @@ export function validarRelatorio(r) {
         texto(`${onde}.veredito.base`, v.base);
       }
 
+      // Regras de evidência. Opcionais para relatórios antigos, obrigatórias quando o campo existe.
+      if (v2 && o.evidencia === undefined) erro(`${onde}.evidencia`, 'obrigatório a partir do processo 2');
+      if (o.evidencia !== undefined) {
+        if (!EVIDENCIAS.includes(o.evidencia)) erro(`${onde}.evidencia`, `um de ${EVIDENCIAS.join(', ')}`);
+        if (o.fonte_verificada === true && !o.vendedor) erro(`${onde}.fonte_verificada`, 'fonte verificada exige o vendedor identificado');
+        if (o.veredito?.tipo === 'comprar') {
+          if (!EVIDENCIAS_COMPRA.includes(o.evidencia)) erro(`${onde}.veredito`, `"comprar" exige evidência ${EVIDENCIAS_COMPRA.join(' ou ')}, recebido ${o.evidencia}`);
+          if (o.fonte_verificada !== true) erro(`${onde}.veredito`, '"comprar" exige fonte verificada');
+          if (o.status !== 'ok' || !o.preco) erro(`${onde}.veredito`, '"comprar" exige oferta ativa com preço à vista');
+        }
+      }
+
       if (!Array.isArray(o.como_chegar)) erro(`${onde}.como_chegar`, 'lista obrigatória (pode ser vazia)');
       else
         o.como_chegar.forEach((q, j) => {
@@ -131,6 +152,24 @@ export function validarRelatorio(r) {
   if (r.coleta !== undefined && r.coleta !== null) {
     if (r.coleta.notas !== undefined && !Array.isArray(r.coleta.notas)) erro('coleta.notas', 'lista de textos');
     (r.coleta.notas || []).forEach((n, i) => texto(`coleta.notas[${i}]`, n));
+    const m = r.coleta.metricas;
+    if (m !== undefined && m !== null) {
+      for (const campo of ['buscas', 'paginas_abertas', 'candidatos', 'publicadas', 'fonte_verificada']) {
+        if (m[campo] !== undefined && (!Number.isInteger(m[campo]) || m[campo] < 0)) erro(`coleta.metricas.${campo}`, 'inteiro maior ou igual a zero');
+      }
+      for (const [nivel, n] of Object.entries(m.por_evidencia || {})) {
+        if (!EVIDENCIAS.includes(nivel)) erro(`coleta.metricas.por_evidencia.${nivel}`, `nível desconhecido; use ${EVIDENCIAS.join(', ')}`);
+        if (!Number.isInteger(n) || n < 0) erro(`coleta.metricas.por_evidencia.${nivel}`, 'inteiro maior ou igual a zero');
+      }
+      for (const [loja, estado] of Object.entries(m.acesso || {})) {
+        if (!ACESSOS.includes(estado)) erro(`coleta.metricas.acesso.${loja}`, `um de ${ACESSOS.join(', ')}`);
+      }
+      if (m.inicio !== undefined) iso('coleta.metricas.inicio', m.inicio);
+      if (m.fim !== undefined) iso('coleta.metricas.fim', m.fim);
+      if (Number.isInteger(m.publicadas) && Array.isArray(r.ofertas) && m.publicadas !== r.ofertas.length) {
+        erro('coleta.metricas.publicadas', `diz ${m.publicadas}, mas o relatório tem ${r.ofertas.length} ofertas`);
+      }
+    }
   }
 
   return erros;

@@ -1,0 +1,123 @@
+{
+  "versao": 2,
+  "atualizado_em": "2026-10-29",
+  "responsavel": "Vinícius Benedetti",
+  "local_entrega": "São Paulo, SP",
+  "limites": {
+    "horas_para_comprar": 24,
+    "desconto_minimo_comprar_pct": 5,
+    "faixa_sem_base_pct": 5,
+    "max_candidatos_por_categoria": 12,
+    "max_publicadas_por_categoria": 8,
+    "tentativas_por_pagina": 1
+  },
+  "categorias": [
+    {
+      "id": "notebooks",
+      "nome": "Notebooks",
+      "criterio": "Intel Core i3 série U de 12ª geração ou superior (ou Intel Core 3), Windows 11, mínimo de 8GB de RAM e 256GB de SSD.",
+      "aceitar": ["i3-1215U", "i3-1305U", "i3-1315U", "i3-1355U", "Core 3 100U", "Core i5 série U de 12ª geração ou superior, se o preço for menor que o do i3 equivalente"],
+      "excluir": ["i3-N300", "i3-N305", "i3 de 10ª geração", "i3 de 11ª geração", "Celeron", "Pentium", "sem Windows 11", "menos de 8GB de RAM", "menos de 256GB de SSD", "eMMC"],
+      "buscas_descoberta": [
+        "notebook i3-1315U 8GB 256GB Windows 11 Pix",
+        "notebook Core 3 100U 8GB 256GB",
+        "Promobit notebook i3",
+        "Pelando notebook i3 1315U"
+      ],
+      "buscas_loja": [
+        "site:kabum.com.br notebook i3-1315U 8GB 256GB",
+        "site:magazineluiza.com.br notebook i3 1315U 8GB 256GB Windows 11",
+        "site:amazon.com.br notebook i3-1315U 8GB 256GB",
+        "site:mercadolivre.com.br notebook i3-1315U 8GB 256GB",
+        "site:casasbahia.com.br notebook i3 1315U",
+        "site:fastshop.com.br notebook i3"
+      ],
+      "acompanhamento": [
+        { "produto": "HP 256R G9, i3-1315U, 8GB, 256GB, Windows 11, 15,6\"", "codigo_modelo": "BQ9K8AT#AK4" },
+        { "produto": "Lenovo IdeaPad 1 15IRU7, i3-1315U, 8GB, 256GB, Windows 11", "codigo_modelo": "83QJ0001BO" },
+        { "produto": "Samsung Galaxy Book4, i3, 8GB, 256GB, Windows 11", "codigo_modelo": "NP750XGJ-KG5BR" },
+        { "produto": "Lenovo V15 G4, i3-1315U, 8GB, 256GB, Windows 11", "codigo_modelo": null },
+        { "produto": "Lenovo V14 G5, i3-1315U, 8GB, 256GB, Windows 11", "codigo_modelo": null },
+        { "produto": "Asus ExpertBook B1, i3-1315U, 8GB, 256GB, Windows 11 Pro", "codigo_modelo": null },
+        { "produto": "Acer Aspire Go 15, i3, 8GB, 256GB, Windows 11", "codigo_modelo": "NX.JGFAL.005" }
+      ]
+    },
+    {
+      "id": "tablets",
+      "nome": "Tablets",
+      "criterio": "Android, mínimo de 8GB de RAM e 256GB de armazenamento.",
+      "aceitar": ["Android com 8GB de RAM ou mais e 256GB ou mais"],
+      "excluir": ["menos de 8GB de RAM", "menos de 256GB", "iPad", "versão importada sem garantia no Brasil, salvo se a oferta disser isso claramente"],
+      "buscas_descoberta": [
+        "tablet 8GB 256GB oferta Pix",
+        "Promobit tablet 8GB 256GB",
+        "Pelando Galaxy Tab 256GB"
+      ],
+      "buscas_loja": [
+        "site:magazineluiza.com.br Galaxy Tab S10 Lite 256GB",
+        "site:kabum.com.br tablet 8GB 256GB",
+        "site:amazon.com.br Galaxy Tab S10 Lite 256GB",
+        "site:mercadolivre.com.br Xiaomi Pad 7 256GB",
+        "site:amazon.com.br Redmi Pad 2 8GB 256GB",
+        "site:samsung.com/br Galaxy Tab S10 Lite"
+      ],
+      "acompanhamento": [
+        { "produto": "Samsung Galaxy Tab S10 Lite 8GB/256GB Wi-Fi", "codigo_modelo": "SM-X400N" },
+        { "produto": "Samsung Galaxy Tab A11+ 8GB/256GB", "codigo_modelo": null },
+        { "produto": "Xiaomi Pad 7 8GB/256GB", "codigo_modelo": null },
+        { "produto": "Xiaomi Redmi Pad 2 8GB/256GB", "codigo_modelo": null }
+      ]
+    },
+    {
+      "id": "ps5",
+      "nome": "PlayStation 5",
+      "criterio": "PS5 Slim Digital, Slim com disco, Pro e pacotes oficiais.",
+      "aceitar": ["PS5 Slim Digital", "PS5 Slim com leitor de disco", "PS5 Pro", "pacotes oficiais com jogos"],
+      "excluir": ["console usado ou recondicionado", "jogo avulso", "acessório avulso", "versão importada sem garantia no Brasil"],
+      "buscas_descoberta": [
+        "PS5 Slim Digital oferta Pix",
+        "Promobit PS5",
+        "Pelando PS5 Slim",
+        "bundle PS5 GTA VI"
+      ],
+      "buscas_loja": [
+        "site:kabum.com.br console PS5 Slim",
+        "site:magazineluiza.com.br console PlayStation 5 Slim",
+        "site:amazon.com.br PlayStation 5 Slim Digital",
+        "site:mercadolivre.com.br PlayStation 5 Slim Digital loja oficial",
+        "site:casasbahia.com.br PlayStation 5 Slim",
+        "site:fastshop.com.br PlayStation 5"
+      ],
+      "acompanhamento": [
+        { "produto": "PS5 Slim Digital 825GB", "codigo_modelo": null },
+        { "produto": "PS5 Slim Digital + Astro Bot + Gran Turismo 7", "codigo_modelo": "B0F7Z9F9SD" },
+        { "produto": "PS5 Slim com disco 1TB", "codigo_modelo": null },
+        { "produto": "PS5 Pro 2TB", "codigo_modelo": null }
+      ]
+    }
+  ],
+  "lojas": [
+    { "nome": "KaBuM", "dominio": "kabum.com.br", "abrir_pagina": true, "vendedor_verificado": "Vendido e entregue por KaBuM ou por loja oficial da marca" },
+    { "nome": "Magalu", "dominio": "magazineluiza.com.br", "abrir_pagina": true, "vendedor_verificado": "Vendido e entregue por Magalu ou por loja oficial da marca" },
+    { "nome": "Amazon.com.br", "dominio": "amazon.com.br", "abrir_pagina": false, "vendedor_verificado": "Vendido e enviado por Amazon.com.br" },
+    { "nome": "Mercado Livre", "dominio": "mercadolivre.com.br", "abrir_pagina": false, "vendedor_verificado": "Loja oficial da marca ou da varejista, vendedor Full ou MercadoLíder Platinum" },
+    { "nome": "Casas Bahia", "dominio": "casasbahia.com.br", "abrir_pagina": true, "vendedor_verificado": "Vendido e entregue por Casas Bahia" },
+    { "nome": "Extra", "dominio": "extra.com.br", "abrir_pagina": true, "vendedor_verificado": "Vendido e entregue por Extra" },
+    { "nome": "Americanas", "dominio": "americanas.com.br", "abrir_pagina": true, "vendedor_verificado": "Vendido e entregue por Americanas" },
+    { "nome": "Fast Shop", "dominio": "fastshop.com.br", "abrir_pagina": true, "vendedor_verificado": "Vendido por Fast Shop" },
+    { "nome": "Loja oficial da marca", "dominio": "samsung.com, store.hp.com, lenovo.com, sony.com.br", "abrir_pagina": true, "vendedor_verificado": "A própria fabricante" }
+  ],
+  "agregadores": ["promobit.com.br", "pelando.com.br", "zoom.com.br", "buscape.com.br", "tecnoblog.net/achados", "techtudo.globo.com"],
+  "nao_abrir": ["zoom.com.br", "buscape.com.br", "pelando.com.br", "tecnoblog.net", "amazon.com.br", "mercadolivre.com.br", "lista.mercadolivre.com.br"],
+  "referencias": [
+    { "produto": "PS5 Slim com disco", "rotulo": "Preço sugerido Sony (disco)", "valor": "5099.90", "fonte": "Sony", "data": "2026-10-26" },
+    { "produto": "PS5 Slim Digital", "rotulo": "Preço sugerido Sony (digital)", "valor": "4599.90", "fonte": "Sony", "data": "2026-10-26" },
+    { "produto": "PS5 Pro", "rotulo": "Preço sugerido Sony (Pro)", "valor": "7499.90", "fonte": "Sony", "data": "2026-10-26" },
+    { "produto": "Notebook i3-1315U 8GB 256GB", "rotulo": "Menor preço conhecido do i3-1315U (Amazon, dez/2025)", "valor": "2598.00", "fonte": "Amazon", "data": "2025-12" },
+    { "produto": "Xiaomi Redmi Pad 2 8GB/256GB", "rotulo": "Menor preço conhecido (Mercado Livre)", "valor": "1147.00", "fonte": "Mercado Livre", "data": "2026-10-26" },
+    { "produto": "Samsung Galaxy Tab S10 Lite 8GB/256GB", "rotulo": "Média de 40 dias, ponto médio (Zoom)", "valor": "2283.50", "fonte": "Zoom, faixa R$ 2.138 a R$ 2.429", "data": "2026-10-26" }
+  ],
+  "marcos_de_mercado": [
+    { "evento": "Black Friday", "data": "2026-11-27", "uso": "Motivo para esperar quando o preço está acima da referência; nunca como certeza de queda." }
+  ]
+}
