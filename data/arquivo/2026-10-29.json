@@ -1,12 +1,12 @@
 {
   "schema": 1,
-  "exemplo": true,
-  "gerado_em": "2026-10-29T10:30:00-03:00",
+  "processo": 2,
+  "gerado_em": "2026-10-29T20:01:25-03:00",
   "analise": {
     "autor": "Vinícius Benedetti",
     "apoio_ia": true
   },
-  "resumo": "Dois consoles PS5 Slim Digital abaixo do preço sugerido pela Sony. Notebooks com i3-1315U seguem acima do menor preço conhecido. Tablets sem preço checado nesta coleta.",
+  "resumo": "As páginas das lojas não puderam ser abertas nesta coleta, então nenhum preço foi confirmado na loja e não há recomendação de compra. Quatro consoles PS5 aparecem abaixo do preço sugerido pela Sony em resumos de busca das lojas; notebooks e tablets seguem acima das referências, e a Black Friday em 27/11/2026 pode trazer preços menores.",
   "categorias": [
     {
       "id": "notebooks",
@@ -17,262 +17,561 @@
     {
       "id": "tablets",
       "nome": "Tablets",
-      "status": "falha",
-      "criterio": "Android, mínimo de 8GB de RAM e 256GB de armazenamento.",
-      "motivo": "A listagem de tablets do Promobit retornou erro e os resumos de busca vieram sem preço. Os últimos preços conhecidos são de 26/10/2026 e não foram revalidados."
+      "status": "ok",
+      "criterio": "Android, mínimo de 8GB de RAM e 256GB de armazenamento."
     },
     {
       "id": "ps5",
       "nome": "PlayStation 5",
       "status": "ok",
-      "criterio": "PS5 Slim Digital, Slim com disco, Pro e pacotes."
+      "criterio": "PS5 Slim Digital, Slim com disco, Pro e pacotes oficiais."
     }
   ],
   "ofertas": [
     {
-      "id": "ps5-slim-digital-astro-gt7-amazon",
-      "categoria": "ps5",
-      "nome": "PlayStation 5 Slim Digital 825GB + Astro Bot e Gran Turismo 7",
-      "especificacoes": "Console sem leitor de disco, 825GB, 2 jogos incluídos",
-      "codigo_modelo": null,
+      "codigo_modelo": "1000046552",
       "imagem": null,
+      "vendedor": "Amazon.com.br",
+      "fonte_verificada": true,
+      "afiliado": false,
+      "status": "ok",
+      "parcelamento": null,
+      "checado_em": "2026-10-29T20:00:00-03:00",
+      "evidencia": "busca_loja",
+      "id": "ps5-pro-2tb-amazon",
+      "categoria": "ps5",
+      "nome": "PlayStation 5 Pro 2TB",
+      "especificacoes": "Console PS5 Pro, SSD de 2TB, controle DualSense",
       "loja": "Amazon.com.br",
-      "vendedor": null,
-      "fonte_verificada": false,
-      "url_produto": "https://www.amazon.com.br/PlayStation%C2%AE5-Digital-Pacote-ASTRO-Turismo/dp/B0F7Z9F9SD",
+      "url_produto": "https://www.amazon.com.br/PlayStation-1000046552-Console-PlayStation%C2%AE5-Pro/dp/B0DH8J5YGH",
       "url_loja": "https://www.amazon.com.br/",
-      "afiliado": false,
-      "status": "ok",
-      "preco": { "valor": "3783.12", "condicao": null },
-      "parcelamento": null,
-      "referencia": { "rotulo": "Preço sugerido Sony (digital)", "valor": "4599.90" },
-      "variacao": "-17,8% em relação ao preço sugerido Sony",
-      "checado_em": "2026-10-28T14:13:00-03:00",
-      "checado_via": "listagem do Promobit",
+      "preco": {
+        "valor": "6991.08",
+        "condicao": "à vista no Pix ou NuPay"
+      },
+      "referencia": {
+        "rotulo": "Preço sugerido Sony (Pro)",
+        "valor": "7499.90"
+      },
+      "variacao": "-6,8% em relação ao preço sugerido Sony",
+      "checado_via": "resumo de busca restrita a amazon.com.br (página não aberta)",
       "veredito": {
-        "tipo": "comprar",
-        "motivo": "Preço 17,8% abaixo do sugerido pela Sony, com dois jogos incluídos. O vendedor não foi identificado: confirme na página que é a Amazon.",
-        "base": "Promobit, 28/10/2026 14:13; preço sugerido Sony"
+        "tipo": "sem_base",
+        "motivo": "Preço 6,8% abaixo do sugerido pela Sony, vendido pela Amazon segundo o resumo. A página não foi aberta nesta coleta: confirme preço e estoque na loja.",
+        "base": "Resumo de busca da Amazon, 29/10/2026 20:00; preço sugerido Sony, 26/10/2026"
       },
       "como_chegar": [
-        { "rotulo": "Por código (ASIN)", "texto": "B0F7Z9F9SD" },
-        { "rotulo": "Por nome", "texto": "PlayStation 5 Slim Digital 825GB Pacote ASTRO BOT e Gran Turismo 7" }
+        {
+          "rotulo": "Por código (ASIN)",
+          "texto": "B0DH8J5YGH"
+        },
+        {
+          "rotulo": "Por código do modelo",
+          "texto": "1000046552"
+        }
       ]
     },
     {
-      "id": "ps5-slim-digital-mercado-livre",
+      "codigo_modelo": "CFI-2114B",
+      "imagem": null,
+      "vendedor": null,
+      "fonte_verificada": false,
+      "afiliado": false,
+      "status": "ok",
+      "parcelamento": null,
+      "checado_em": "2026-10-29T20:00:00-03:00",
+      "evidencia": "busca_loja",
+      "id": "ps5-slim-digital-825gb-astros-playroom-kabum",
       "categoria": "ps5",
-      "nome": "PlayStation 5 Slim Digital 825GB (console)",
-      "especificacoes": "Console sem leitor de disco, 825GB. A listagem não cita jogos incluídos",
+      "nome": "PlayStation 5 Slim Edição Digital 825GB, CFI-2114B",
+      "especificacoes": "Console sem leitor de disco, SSD de 825GB, controle DualSense, Astro's Playroom",
+      "loja": "KaBuM",
+      "url_produto": "https://www.kabum.com.br/produto/1050570/console-sony-playstation-5-edicao-digital-slim-ssd-825gb-controle-dualsense-astro-s-playroom-branco-cfi-2114b",
+      "url_loja": "https://www.kabum.com.br/",
+      "preco": {
+        "valor": "4370.07",
+        "condicao": null
+      },
+      "referencia": {
+        "rotulo": "Preço sugerido Sony (digital)",
+        "valor": "4599.90"
+      },
+      "variacao": "-5,0% em relação ao preço sugerido Sony",
+      "checado_via": "resumo de busca restrita a kabum.com.br (página não aberta)",
+      "veredito": {
+        "tipo": "sem_base",
+        "motivo": "Preço 5,0% abaixo do sugerido pela Sony, no limite da faixa sem base. Vendedor e forma de pagamento não foram lidos.",
+        "base": "Resumo de busca da KaBuM, 29/10/2026 20:00; preço sugerido Sony, 26/10/2026"
+      },
+      "como_chegar": [
+        {
+          "rotulo": "Por código KaBuM",
+          "texto": "1050570"
+        },
+        {
+          "rotulo": "Por código do modelo",
+          "texto": "CFI-2114B"
+        }
+      ]
+    },
+    {
       "codigo_modelo": null,
       "imagem": null,
-      "loja": "Mercado Livre",
       "vendedor": null,
       "fonte_verificada": false,
-      "url_produto": null,
-      "url_loja": "https://www.mercadolivre.com.br/",
       "afiliado": false,
       "status": "ok",
-      "preco": { "valor": "3999.00", "condicao": null },
       "parcelamento": null,
-      "referencia": { "rotulo": "Preço sugerido Sony (digital)", "valor": "4599.90" },
-      "variacao": "-13,1% em relação ao preço sugerido Sony",
-      "checado_em": "2026-10-29T10:25:00-03:00",
-      "checado_via": "listagem do Promobit",
+      "checado_em": "2026-10-29T20:00:00-03:00",
+      "evidencia": "busca_loja",
+      "id": "ps5-slim-digital-825gb-fastshop",
+      "categoria": "ps5",
+      "nome": "PlayStation 5 Slim Digital 825GB",
+      "especificacoes": "Console sem leitor de disco, SSD de 825GB, controle DualSense",
+      "loja": "Fast Shop",
+      "url_produto": "https://site.fastshop.com.br/console-playstation-5-slim-digital-825gb-com-controle-dualsense-187039/p",
+      "url_loja": "https://www.fastshop.com.br/",
+      "preco": {
+        "valor": "4049.00",
+        "condicao": "no Pix"
+      },
+      "referencia": {
+        "rotulo": "Preço sugerido Sony (digital)",
+        "valor": "4599.90"
+      },
+      "variacao": "-12,0% em relação ao preço sugerido Sony",
+      "checado_via": "resumo de busca restrita a fastshop.com.br (página não aberta)",
       "veredito": {
-        "tipo": "comprar",
-        "motivo": "Preço 13,1% abaixo do sugerido pela Sony, mas o vendedor não foi identificado. Só vale a compra de Loja Oficial, Full ou MercadoLíder.",
-        "base": "Promobit, 29/10/2026 10:25; preço sugerido Sony"
+        "tipo": "sem_base",
+        "motivo": "Preço 12,0% abaixo do sugerido pela Sony, mas lido só no resumo de busca e sem vendedor identificado. Confirme na loja antes de decidir.",
+        "base": "Resumo de busca da Fast Shop, 29/10/2026 20:00; preço sugerido Sony, 26/10/2026"
       },
       "como_chegar": [
-        { "rotulo": "Por nome", "texto": "Console PlayStation 5 Slim Edição Digital 825GB" }
+        {
+          "rotulo": "Por código Fast Shop",
+          "texto": "187039"
+        },
+        {
+          "rotulo": "Por nome",
+          "texto": "Console PlayStation 5 Slim Digital 825GB com controle Dualsense"
+        }
       ]
     },
     {
+      "codigo_modelo": null,
+      "imagem": null,
+      "vendedor": null,
+      "fonte_verificada": false,
+      "afiliado": false,
+      "status": "ok",
+      "parcelamento": null,
+      "checado_em": "2026-10-29T20:00:00-03:00",
+      "evidencia": "busca_loja",
+      "id": "ps5-slim-disco-1tb-fastshop",
+      "categoria": "ps5",
+      "nome": "PlayStation 5 Slim com leitor de disco 1TB",
+      "especificacoes": "Console com leitor de disco, SSD de 1TB",
+      "loja": "Fast Shop",
+      "url_produto": "https://site.fastshop.com.br/console-playstation-5-sony-slim-edicao-disk-1tb-129784/p",
+      "url_loja": "https://www.fastshop.com.br/",
+      "preco": {
+        "valor": "4389.00",
+        "condicao": "no Pix"
+      },
+      "referencia": {
+        "rotulo": "Preço sugerido Sony (disco)",
+        "valor": "5099.90"
+      },
+      "variacao": "-13,9% em relação ao preço sugerido Sony",
+      "checado_via": "resumo de busca restrita a fastshop.com.br (página não aberta)",
+      "veredito": {
+        "tipo": "sem_base",
+        "motivo": "Preço 13,9% abaixo do sugerido pela Sony, mas lido só no resumo de busca e sem vendedor identificado. Confirme na loja antes de decidir.",
+        "base": "Resumo de busca da Fast Shop, 29/10/2026 20:00; preço sugerido Sony, 26/10/2026"
+      },
+      "como_chegar": [
+        {
+          "rotulo": "Por código Fast Shop",
+          "texto": "129784"
+        },
+        {
+          "rotulo": "Por nome",
+          "texto": "Console PlayStation 5 Sony Slim Edição Disk 1TB"
+        }
+      ]
+    },
+    {
+      "codigo_modelo": null,
+      "imagem": null,
+      "vendedor": null,
+      "fonte_verificada": false,
+      "afiliado": false,
+      "status": "ok",
+      "parcelamento": null,
+      "checado_em": "2026-10-29T20:00:00-03:00",
+      "evidencia": "busca_loja",
+      "id": "ps5-slim-digital-1tb-2-jogos-magalu",
+      "categoria": "ps5",
+      "nome": "PlayStation 5 Slim Edição Digital 1TB com 2 jogos",
+      "especificacoes": "Console sem leitor de disco, SSD de 1TB, 1 controle, 2 jogos",
+      "loja": "Magalu",
+      "url_produto": "https://www.magazineluiza.com.br/playstation-5-slim-edicao-digital-2024-1tb-1-controle-branco-sony-com-2-jogos/p/238279100/ga/gps5/",
+      "url_loja": "https://www.magazineluiza.com.br/",
+      "preco": {
+        "valor": "3440.07",
+        "condicao": "no Pix"
+      },
+      "referencia": {
+        "rotulo": "Preço sugerido Sony (digital)",
+        "valor": "4599.90"
+      },
+      "variacao": "-25,2% em relação ao preço sugerido Sony",
+      "checado_via": "resumo de busca restrita a magazineluiza.com.br (página não aberta)",
+      "veredito": {
+        "tipo": "sem_base",
+        "motivo": "Preço 25,2% abaixo do sugerido pela Sony, desconto fora do padrão das outras lojas. Lido só no resumo de busca, sem vendedor nem estoque: pode ser preço antigo.",
+        "base": "Resumo de busca do Magalu, 29/10/2026 20:00; preço sugerido Sony, 26/10/2026"
+      },
+      "como_chegar": [
+        {
+          "rotulo": "Por código Magalu",
+          "texto": "238279100"
+        },
+        {
+          "rotulo": "Por nome",
+          "texto": "PlayStation 5 Slim Edição Digital 2024 1TB 1 Controle Branco Sony com 2 Jogos"
+        }
+      ]
+    },
+    {
+      "codigo_modelo": "BQ9K8AT#AK4",
+      "imagem": null,
+      "vendedor": null,
+      "fonte_verificada": false,
+      "afiliado": false,
+      "status": "ok",
+      "parcelamento": null,
+      "checado_em": "2026-10-29T20:00:00-03:00",
+      "evidencia": "busca_loja",
       "id": "hp-256r-g9-i3-1315u-kabum",
       "categoria": "notebooks",
       "nome": "HP 256R G9, Core i3-1315U, 8GB, 256GB SSD, Windows 11, 15,6\"",
       "especificacoes": "Intel Core i3-1315U, 8GB de RAM, SSD de 256GB, Windows 11, tela de 15,6\"",
-      "codigo_modelo": "BQ9K8AT#AK4",
-      "imagem": null,
       "loja": "KaBuM",
-      "vendedor": "Magalu",
-      "fonte_verificada": true,
       "url_produto": "https://www.kabum.com.br/produto/873586/notebook-hp-256r-g9-intel-core-i3-1315u-8gb-ram-256gb-15-6-polegadas-windows-11-intel-uhd-graphics-bq9k8at-ak4",
       "url_loja": "https://www.kabum.com.br/",
-      "afiliado": false,
-      "status": "ok",
-      "preco": { "valor": "3347.07", "condicao": "no Pix" },
-      "parcelamento": { "quantidade": 10, "valor": "359.90", "juros": false },
-      "referencia": { "rotulo": "Menor preço conhecido do i3-1315U (Amazon, dez/2025)", "valor": "2598.00" },
-      "variacao": "+28,8% em relação à referência",
-      "checado_em": "2026-10-28T14:13:00-03:00",
-      "checado_via": "página do produto na KaBuM",
+      "preco": {
+        "valor": "2993.74",
+        "condicao": "no Pix"
+      },
+      "referencia": {
+        "rotulo": "Menor preço conhecido do i3-1315U (Amazon, dez/2025)",
+        "valor": "2598.00"
+      },
+      "variacao": "+15,2% em relação à referência",
+      "checado_via": "resumo de busca restrita a kabum.com.br (página não aberta)",
       "veredito": {
         "tipo": "esperar",
-        "motivo": "Preço 28,8% acima do menor preço conhecido para este processador.",
-        "base": "Amazon, dez/2025; KaBuM, 28/10/2026 14:13"
+        "motivo": "Preço 15,2% acima do menor preço conhecido para este processador. Com a Black Friday em 27/11/2026, o preço pode cair, sem garantia.",
+        "base": "Resumo de busca da KaBuM, 29/10/2026 20:00; Amazon, dez/2025"
       },
       "como_chegar": [
-        { "rotulo": "Por código KaBuM", "texto": "873586" },
-        { "rotulo": "Por código do modelo", "texto": "BQ9K8AT#AK4" }
+        {
+          "rotulo": "Por código KaBuM",
+          "texto": "873586"
+        },
+        {
+          "rotulo": "Por código do modelo",
+          "texto": "BQ9K8AT#AK4"
+        }
       ]
     },
     {
-      "id": "hp-256r-g9-i3-1315u-magalu",
-      "categoria": "notebooks",
-      "nome": "HP 256R G9, Core i3-1315U, 8GB, 256GB SSD, Windows 11, 15,6\"",
-      "especificacoes": "Intel Core i3-1315U, 8GB de RAM, SSD de 256GB, Windows 11, tela de 15,6\"",
-      "codigo_modelo": "BQ9K8AT#AK4",
-      "imagem": null,
-      "loja": "Magalu",
-      "vendedor": "Magalu",
-      "fonte_verificada": true,
-      "url_produto": null,
-      "url_loja": "https://www.magazineluiza.com.br/",
-      "afiliado": false,
-      "status": "ok",
-      "preco": { "valor": "3239.10", "condicao": "no Pix" },
-      "parcelamento": { "quantidade": 10, "valor": "359.90", "juros": false },
-      "referencia": { "rotulo": "Menor preço conhecido do i3-1315U (Amazon, dez/2025)", "valor": "2598.00" },
-      "variacao": "+24,7% em relação à referência",
-      "checado_em": "2026-10-29T10:25:00-03:00",
-      "checado_via": "listagem de busca do Magalu",
-      "veredito": {
-        "tipo": "esperar",
-        "motivo": "Preço 24,7% acima do menor preço conhecido para este processador e igual ao de 28/10.",
-        "base": "Magalu, 29/10/2026 10:25; Amazon, dez/2025"
-      },
-      "como_chegar": [
-        { "rotulo": "Por código do modelo", "texto": "BQ9K8AT#AK4" },
-        { "rotulo": "Por nome", "texto": "Notebook HP 256R G9 Intel Core i3 1315U 8GB 256GB 15,6 Windows 11" }
-      ]
-    },
-    {
-      "id": "lenovo-ideapad-1i-i3-1315u-magalu",
-      "categoria": "notebooks",
-      "nome": "Lenovo IdeaPad 1i, Core i3-1315U, 8GB, 256GB SSD, Windows 11, 15,6\"",
-      "especificacoes": "Intel Core i3-1315U, 8GB de RAM, SSD de 256GB, Windows 11, tela de 15,6\"",
-      "codigo_modelo": "83QJ0001BO",
-      "imagem": null,
-      "loja": "Magalu",
-      "vendedor": "Magalu",
-      "fonte_verificada": true,
-      "url_produto": null,
-      "url_loja": "https://www.magazineluiza.com.br/",
-      "afiliado": false,
-      "status": "ok",
-      "preco": { "valor": "3533.07", "condicao": "no Pix" },
-      "parcelamento": { "quantidade": 10, "valor": "379.90", "juros": false },
-      "referencia": { "rotulo": "Menor preço conhecido do i3-1315U (Amazon, dez/2025)", "valor": "2598.00" },
-      "variacao": "+36,0% em relação à referência",
-      "checado_em": "2026-10-29T10:25:00-03:00",
-      "checado_via": "listagem de busca do Magalu",
-      "veredito": {
-        "tipo": "esperar",
-        "motivo": "Preço 36,0% acima do menor preço conhecido para este processador.",
-        "base": "Magalu, 29/10/2026 10:25; Amazon, dez/2025"
-      },
-      "como_chegar": [
-        { "rotulo": "Por código do modelo", "texto": "83QJ0001BO" }
-      ]
-    },
-    {
-      "id": "samsung-galaxy-book4-i3-magalu",
-      "categoria": "notebooks",
-      "nome": "Samsung Galaxy Book4, Core i3, 8GB, 256GB SSD, Windows 11, 15,6\"",
-      "especificacoes": "Intel Core i3, 8GB de RAM, SSD de 256GB, Windows 11, tela de 15,6\"",
-      "codigo_modelo": "NP750XGJ-KG5BR",
-      "imagem": null,
-      "loja": "Magalu",
-      "vendedor": "Magalu",
-      "fonte_verificada": true,
-      "url_produto": null,
-      "url_loja": "https://www.magazineluiza.com.br/",
-      "afiliado": false,
-      "status": "ok",
-      "preco": { "valor": "3466.55", "condicao": "no Pix" },
-      "parcelamento": { "quantidade": 10, "valor": "364.90", "juros": false },
-      "referencia": { "rotulo": "Menor preço conhecido do i3-1315U (Amazon, dez/2025)", "valor": "2598.00" },
-      "variacao": "+33,4% em relação à referência",
-      "checado_em": "2026-10-29T10:25:00-03:00",
-      "checado_via": "listagem de busca do Magalu",
-      "veredito": {
-        "tipo": "esperar",
-        "motivo": "Preço 33,4% acima do menor preço conhecido para um i3 da mesma faixa.",
-        "base": "Magalu, 29/10/2026 10:25; Amazon, dez/2025"
-      },
-      "como_chegar": [
-        { "rotulo": "Por código do modelo", "texto": "NP750XGJ-KG5BR" }
-      ]
-    },
-    {
-      "id": "acer-aspire-go-15-ag15-51p-magalu",
-      "categoria": "notebooks",
-      "nome": "Acer Aspire Go 15 AG15-51P-35JZ, Core i3, 8GB, 256GB SSD, Windows 11",
-      "especificacoes": "Intel Core i3 (geração não informada na listagem), 8GB de RAM, SSD de 256GB, Windows 11",
       "codigo_modelo": "NX.JGFAL.005",
       "imagem": null,
-      "loja": "Magalu",
-      "vendedor": "Magalu",
-      "fonte_verificada": true,
-      "url_produto": null,
-      "url_loja": "https://www.magazineluiza.com.br/",
+      "vendedor": null,
+      "fonte_verificada": false,
       "afiliado": false,
       "status": "ok",
-      "preco": null,
-      "parcelamento": { "quantidade": 10, "valor": "354.90", "juros": false },
-      "referencia": null,
-      "variacao": null,
-      "checado_em": "2026-10-29T10:25:00-03:00",
-      "checado_via": "listagem de busca do Magalu",
+      "parcelamento": null,
+      "checado_em": "2026-10-29T20:00:00-03:00",
+      "evidencia": "busca_loja",
+      "id": "acer-aspire-go-15-ag15-51p-35jz-fastshop",
+      "categoria": "notebooks",
+      "nome": "Acer Aspire Go 15 AG15-51P-35JZ, Core i3-1305U, 8GB, 256GB SSD, Windows 11, 15,3\"",
+      "especificacoes": "Intel Core i3-1305U, 8GB de RAM, SSD de 256GB, Windows 11, tela de 15,3\"",
+      "loja": "Fast Shop",
+      "url_produto": "https://site.fastshop.com.br/notebook-acer-aspire-go-15-ag15-51p-35jz-intel-core-i3-8gb-ram-256gb-ssd-153--windows-11-nx-jgfal-005-186220/p",
+      "url_loja": "https://www.fastshop.com.br/",
+      "preco": {
+        "valor": "3355.11",
+        "condicao": "no Pix"
+      },
+      "referencia": {
+        "rotulo": "Menor preço conhecido do i3-1315U (Amazon, dez/2025)",
+        "valor": "2598.00"
+      },
+      "variacao": "+29,1% em relação à referência",
+      "checado_via": "resumo de busca restrita a fastshop.com.br (página não aberta)",
       "veredito": {
-        "tipo": "sem_base",
-        "motivo": "A listagem não mostra o preço à vista nem a geração do processador, então não há como comparar com a referência.",
-        "base": "Magalu, 29/10/2026 10:25"
+        "tipo": "esperar",
+        "motivo": "Preço 29,1% acima do menor preço conhecido do i3-1315U, com processador i3-1305U. Com a Black Friday em 27/11/2026, o preço pode cair, sem garantia.",
+        "base": "Resumo de busca da Fast Shop, 29/10/2026 20:00; Amazon, dez/2025"
       },
       "como_chegar": [
-        { "rotulo": "Por código do modelo", "texto": "NX.JGFAL.005" }
+        {
+          "rotulo": "Por código do modelo",
+          "texto": "NX.JGFAL.005"
+        },
+        {
+          "rotulo": "Por código Fast Shop",
+          "texto": "186220"
+        }
       ]
     },
     {
-      "id": "lenovo-ideapad-1-15iru7-kabum",
-      "categoria": "notebooks",
-      "nome": "Lenovo IdeaPad 1 15IRU7, Core i3-1315U, 8GB, 256GB SSD, Windows 11",
-      "especificacoes": "Intel Core i3-1315U, 8GB de RAM, SSD de 256GB, Windows 11, tela de 15,6\"",
-      "codigo_modelo": "83QJ0001BO",
+      "codigo_modelo": "83QJ0000BO",
       "imagem": null,
-      "loja": "KaBuM",
-      "vendedor": "Cavuca",
+      "vendedor": null,
       "fonte_verificada": false,
-      "url_produto": "https://www.kabum.com.br/produto/904710/notebook-lenovo-ideapad-1-15iru7-intel-core-i3-1315u-8gb-256gb-ssd-windows-11-15-6-83qj0001bo-cloud-grey",
-      "url_loja": "https://www.kabum.com.br/",
       "afiliado": false,
       "status": "ok",
-      "preco": { "valor": "4478.56", "condicao": "à vista" },
-      "parcelamento": { "quantidade": 10, "valor": "471.42", "juros": false },
-      "referencia": { "rotulo": "Menor preço conhecido do i3-1315U (Amazon, dez/2025)", "valor": "2598.00" },
-      "variacao": "+72,4% em relação à referência",
-      "checado_em": "2026-10-29T10:25:00-03:00",
-      "checado_via": "página do produto na KaBuM",
+      "parcelamento": null,
+      "checado_em": "2026-10-29T20:00:00-03:00",
+      "evidencia": "busca_loja",
+      "id": "lenovo-ideapad-1-15iru7-512gb-casasbahia",
+      "categoria": "notebooks",
+      "nome": "Lenovo IdeaPad 1 15IRU7, Core i3-1315U, 8GB, 512GB SSD, Windows 11, 15,6\"",
+      "especificacoes": "Intel Core i3-1315U, 8GB de RAM, SSD de 512GB, Windows 11 Home, tela de 15,6\" FHD",
+      "loja": "Casas Bahia",
+      "url_produto": "https://www.casasbahia.com.br/notebook-lenovo-ideapad-1-15iru7-intel-core-i3-1315u-8gb-512gb-ssd-windows-11-156-quot-83qj0000bo-cloud-grey/p/1572458393",
+      "url_loja": "https://www.casasbahia.com.br/",
+      "preco": {
+        "valor": "3778.95",
+        "condicao": null
+      },
+      "referencia": {
+        "rotulo": "Menor preço conhecido do i3-1315U (Amazon, dez/2025)",
+        "valor": "2598.00"
+      },
+      "variacao": "+45,5% em relação à referência",
+      "checado_via": "resumo de busca restrita a casasbahia.com.br (página não aberta)",
       "veredito": {
         "tipo": "esperar",
-        "motivo": "Preço 72,4% acima da referência e maior que o de 26/10/2026. Vendido por terceiro na KaBuM.",
-        "base": "KaBuM, 29/10/2026 10:25; Amazon, dez/2025"
+        "motivo": "Preço 45,5% acima do menor preço conhecido para este processador, com SSD de 512GB. Com a Black Friday em 27/11/2026, o preço pode cair, sem garantia.",
+        "base": "Resumo de busca da Casas Bahia, 29/10/2026 20:00; Amazon, dez/2025"
       },
       "como_chegar": [
-        { "rotulo": "Por código KaBuM", "texto": "904710" },
-        { "rotulo": "Por código do modelo", "texto": "83QJ0001BO" }
+        {
+          "rotulo": "Por código do modelo",
+          "texto": "83QJ0000BO"
+        },
+        {
+          "rotulo": "Por código Casas Bahia",
+          "texto": "1572458393"
+        }
+      ]
+    },
+    {
+      "codigo_modelo": "SM-X400N",
+      "imagem": null,
+      "vendedor": "Loja Oficial Samsung",
+      "fonte_verificada": true,
+      "afiliado": false,
+      "status": "ok",
+      "parcelamento": null,
+      "checado_em": "2026-10-29T20:00:00-03:00",
+      "evidencia": "busca_loja",
+      "id": "samsung-galaxy-tab-s10-lite-256gb-wifi-mercado-livre",
+      "categoria": "tablets",
+      "nome": "Samsung Galaxy Tab S10 Lite Wi-Fi, 8GB, 256GB, 10,9\", com S Pen e capa",
+      "especificacoes": "8GB de RAM, 256GB, tela de 10,9\", Wi-Fi, S Pen e capa Smartbook Cover inclusas",
+      "loja": "Mercado Livre",
+      "url_produto": "https://www.mercadolivre.com.br/tablet-samsung-galaxy-tab-s10-lite-wifi-256gb-8gb-ram-tela-109-s-pen-e-capa-smartbook-cover-inclusas/p/MLB54435305",
+      "url_loja": "https://www.mercadolivre.com.br/",
+      "preco": {
+        "valor": "2599.00",
+        "condicao": null
+      },
+      "referencia": {
+        "rotulo": "Média de 40 dias, ponto médio (Zoom)",
+        "valor": "2283.50"
+      },
+      "variacao": "+13,8% em relação à média de 40 dias (Zoom)",
+      "checado_via": "resumo de busca restrita a mercadolivre.com.br (página não aberta)",
+      "veredito": {
+        "tipo": "esperar",
+        "motivo": "Preço 13,8% acima da média de 40 dias do Zoom, embora inclua capa. Com a Black Friday em 27/11/2026, o preço pode cair, sem garantia.",
+        "base": "Resumo de busca do Mercado Livre, 29/10/2026 20:00; Zoom, 26/10/2026"
+      },
+      "como_chegar": [
+        {
+          "rotulo": "Por nome",
+          "texto": "Tablet Samsung Galaxy Tab S10 Lite Wifi 256gb 8gb Ram S Pen e Capa Smartbook Cover"
+        },
+        {
+          "rotulo": "Por código Mercado Livre",
+          "texto": "MLB54435305"
+        }
+      ]
+    },
+    {
+      "codigo_modelo": "SM-X400N",
+      "imagem": null,
+      "vendedor": null,
+      "fonte_verificada": false,
+      "afiliado": false,
+      "status": "ok",
+      "parcelamento": null,
+      "checado_em": "2026-10-29T20:00:00-03:00",
+      "evidencia": "busca_loja",
+      "id": "samsung-galaxy-tab-s10-lite-256gb-wifi-magalu",
+      "categoria": "tablets",
+      "nome": "Samsung Galaxy Tab S10 Lite Wi-Fi, 8GB, 256GB, 10,9\", com S Pen e capa",
+      "especificacoes": "8GB de RAM, 256GB, tela de 10,9\", Wi-Fi, S Pen e capa Smartbook Cover inclusas",
+      "loja": "Magalu",
+      "url_produto": "https://m.magazineluiza.com.br/tablet-samsung-galaxy-tab-s10-lite-wifi-256gb-8gb-ram-tela-10-9-s-pen-e-capa-smartbook-cover-inclusas/p/jjhd6g4f9d/tb/sams/",
+      "url_loja": "https://www.magazineluiza.com.br/",
+      "preco": {
+        "valor": "4099.00",
+        "condicao": null
+      },
+      "referencia": {
+        "rotulo": "Média de 40 dias, ponto médio (Zoom)",
+        "valor": "2283.50"
+      },
+      "variacao": "+79,5% em relação à média de 40 dias (Zoom)",
+      "checado_via": "resumo de busca restrita a magazineluiza.com.br (página não aberta)",
+      "veredito": {
+        "tipo": "esperar",
+        "motivo": "Preço 79,5% acima da média de 40 dias do Zoom. Há o mesmo produto mais barato em outra fonte nesta coleta.",
+        "base": "Resumo de busca do Magalu, 29/10/2026 20:00; Zoom, 26/10/2026"
+      },
+      "como_chegar": [
+        {
+          "rotulo": "Por código Magalu",
+          "texto": "jjhd6g4f9d"
+        }
+      ]
+    },
+    {
+      "codigo_modelo": null,
+      "imagem": null,
+      "vendedor": null,
+      "fonte_verificada": false,
+      "afiliado": false,
+      "status": "ok",
+      "parcelamento": null,
+      "checado_em": "2026-10-29T20:00:00-03:00",
+      "evidencia": "busca_loja",
+      "id": "xiaomi-redmi-pad-2-8gb-256gb-cinza-kabum",
+      "categoria": "tablets",
+      "nome": "Xiaomi Redmi Pad 2, 8GB, 256GB, Cinza",
+      "especificacoes": "8GB de RAM, 256GB. O título informa tela de 10,3\" e a descrição, 10,36\"",
+      "loja": "KaBuM",
+      "url_produto": "https://www.kabum.com.br/produto/1027696/tablet-xiaomi-redmi-pad-2-256gb-8gb-ram-tela-de-10-3-cinza",
+      "url_loja": "https://www.kabum.com.br/",
+      "preco": {
+        "valor": "1658.38",
+        "condicao": "no Pix"
+      },
+      "referencia": {
+        "rotulo": "Menor preço conhecido (Mercado Livre)",
+        "valor": "1147.00"
+      },
+      "variacao": "+44,6% em relação ao menor preço conhecido",
+      "checado_via": "resumo de busca restrita a kabum.com.br (página não aberta)",
+      "veredito": {
+        "tipo": "esperar",
+        "motivo": "Preço 44,6% acima do menor preço conhecido do Redmi Pad 2 8GB/256GB. Com a Black Friday em 27/11/2026, o preço pode cair, sem garantia.",
+        "base": "Resumo de busca da KaBuM, 29/10/2026 20:00; Mercado Livre, 26/10/2026"
+      },
+      "como_chegar": [
+        {
+          "rotulo": "Por código KaBuM",
+          "texto": "1027696"
+        }
+      ]
+    },
+    {
+      "codigo_modelo": null,
+      "imagem": null,
+      "vendedor": null,
+      "fonte_verificada": false,
+      "afiliado": false,
+      "status": "ok",
+      "parcelamento": null,
+      "checado_em": "2026-10-29T20:00:00-03:00",
+      "evidencia": "busca_loja",
+      "id": "xiaomi-redmi-pad-2-4g-8gb-256gb-kabum",
+      "categoria": "tablets",
+      "nome": "Xiaomi Redmi Pad 2 4G, 8GB, 256GB, 11\", Graphite Gray",
+      "especificacoes": "8GB de RAM, 256GB, tela de 11\", 4G",
+      "loja": "KaBuM",
+      "url_produto": "https://www.kabum.com.br/produto/1003290/tablet-xiaomi-redmi-pad-2-4g-256gb-8gb-ram-de-11-8mp-5mp-graphite-gray",
+      "url_loja": "https://www.kabum.com.br/",
+      "preco": {
+        "valor": "1889.10",
+        "condicao": null
+      },
+      "referencia": {
+        "rotulo": "Menor preço conhecido (Mercado Livre)",
+        "valor": "1147.00"
+      },
+      "variacao": "+64,7% em relação ao menor preço conhecido",
+      "checado_via": "resumo de busca restrita a kabum.com.br (página não aberta)",
+      "veredito": {
+        "tipo": "esperar",
+        "motivo": "Preço 64,7% acima do menor preço conhecido do Redmi Pad 2 8GB/256GB, que é a versão sem 4G. Com a Black Friday em 27/11/2026, o preço pode cair, sem garantia.",
+        "base": "Resumo de busca da KaBuM, 29/10/2026 20:00; Mercado Livre, 26/10/2026"
+      },
+      "como_chegar": [
+        {
+          "rotulo": "Por código KaBuM",
+          "texto": "1003290"
+        }
       ]
     }
   ],
   "coleta": {
-    "fontes_consultadas": ["Promobit", "Magalu", "KaBuM"],
+    "fontes_consultadas": [
+      "KaBuM",
+      "Magalu",
+      "Amazon.com.br",
+      "Mercado Livre",
+      "Casas Bahia",
+      "Fast Shop",
+      "Samsung",
+      "Promobit",
+      "Pelando",
+      "Buscapé",
+      "Zoom"
+    ],
     "notas": [
-      "Funcionou: listagem de PS5 do Promobit, busca de notebooks i3-1315U no Magalu e página do IdeaPad 1 na KaBuM.",
-      "Falhou: listagem de tablets do Promobit (erro ao abrir) e resumos de busca sem preço nem data.",
-      "Amazon, Mercado Livre, Zoom, Buscapé, Pelando e Tecnoblog não foram abertos por regra da coleta; por isso não há média de preço de 40 dias.",
-      "Não houve tempo para as buscas de cupom do Mercado Livre, Magalu e Amazon."
-    ]
+      "Funcionou: buscas restritas ao domínio de cada loja trouxeram produto e preço nos resumos para KaBuM, Magalu, Amazon, Mercado Livre, Casas Bahia e Fast Shop.",
+      "Falhou: a rede desta execução recusou todas as lojas (KaBuM, Magalu, Casas Bahia, Americanas, Samsung) e o Promobit, pela ferramenta de páginas e pelo curl, por isso não há evidência de nível 1 ou 2 nem veredito de compra e a cobertura mínima da fase 2 não foi atingida.",
+      "Todos os preços publicados foram lidos em resumos de busca entre 19:56 e 20:00 de 29/10/2026 e registrados às 20:00; o buscador não informa quando capturou cada resumo, então o preço pode ser anterior.",
+      "Candidatos com preços conflitantes entre resumos (PS5 Slim Digital com Astro Bot e GT7 na Amazon, Tab S10 Lite na Amazon, Redmi Pad 2 na Amazon, HP 256R G9 no Magalu) ou marcados sem estoque (Acer Aspire Go 15 na KaBuM) ficaram fora do site e estão no relatório em markdown.",
+      "O relatório anterior continha dados de exemplo; nenhum preço dele foi mantido."
+    ],
+    "metricas": {
+      "inicio": "2026-10-29T19:56:32-03:00",
+      "fim": "2026-10-29T20:01:25-03:00",
+      "buscas": 49,
+      "paginas_abertas": 0,
+      "candidatos": 30,
+      "publicadas": 12,
+      "por_evidencia": {
+        "busca_loja": 12
+      },
+      "fonte_verificada": 2,
+      "acesso": {
+        "kabum.com.br": "bloqueado",
+        "magazineluiza.com.br": "bloqueado",
+        "casasbahia.com.br": "bloqueado",
+        "americanas.com.br": "bloqueado",
+        "shop.samsung.com": "bloqueado"
+      }
+    }
   }
 }
