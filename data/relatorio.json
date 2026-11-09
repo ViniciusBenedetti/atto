@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "processo": 2,
-  "gerado_em": "2026-11-08T09:13:39-03:00",
+  "gerado_em": "2026-11-09T09:16:41-03:00",
   "analise": {
     "autor": "Vinícius Benedetti",
     "apoio_ia": true
   },
-  "resumo": "Dois consoles PS5 vendidos pela KaBuM seguem pelo menos 5% abaixo do preço sugerido pela Sony, com preço, estoque e vendedor confirmados na página da loja em 08/11/2026 09:09: o PS5 com leitor de discos 1TB e Astro's Playroom por R$ 4.742,07 no Pix (-7,0%) e o PS5 Edição Digital com Astro Bot e Gran Turismo 7 por R$ 4.364,03 no Pix (-5,1%), que subiu de R$ 4.146,87 com o fim da campanha da loja. O PS5 com leitor de discos, Astro Bot e Gran Turismo 7 da KaBuM subiu de R$ 4.537,47 para R$ 5.114,07 e deixou de ser recomendado. Notebooks e tablets publicados não mudaram de preço desde 06/11/2026 e seguem acima das referências ou sem referência; a Black Friday em 27/11/2026 pode trazer preços menores, sem garantia.",
+  "resumo": "Três consoles PS5 vendidos pela KaBuM estão 7,0% abaixo do preço sugerido pela Sony, com preço, estoque e vendedor confirmados na página da loja em 09/11/2026 09:14: o PS5 Edição Digital com Astro Bot e Gran Turismo 7 por R$ 4.277,07 no Pix e os PS5 com leitor de discos 1TB, com Astro's Playroom ou com Astro Bot e Gran Turismo 7, por R$ 4.742,07 no Pix. Dois deles voltaram à campanha \"Esquenta 11do11\", com término informado em 13/11/2026 10:00. Notebooks e tablets publicados seguem acima das referências ou sem referência; a Black Friday em 27/11/2026 pode trazer preços menores, sem garantia.",
   "categorias": [
     {
       "id": "notebooks",
@@ -44,25 +44,25 @@
       "afiliado": false,
       "status": "ok",
       "preco": {
-        "valor": "4364.03",
+        "valor": "4277.07",
         "condicao": "no Pix"
       },
       "parcelamento": {
         "quantidade": 10,
-        "valor": "469.25",
+        "valor": "459.90",
         "juros": false
       },
       "referencia": {
         "rotulo": "Preço sugerido Sony (digital)",
         "valor": "4599.90"
       },
-      "variacao": "-5,1% em relação ao preço sugerido Sony",
-      "checado_em": "2026-11-08T09:09:00-03:00",
+      "variacao": "-7,0% em relação ao preço sugerido Sony",
+      "checado_em": "2026-11-09T09:14:00-03:00",
       "checado_via": "página do produto na KaBuM",
       "veredito": {
         "tipo": "comprar",
-        "motivo": "Preço 5,1% abaixo do sugerido pela Sony, vendido e entregue pela KaBuM e em estoque. A campanha da loja que levava o preço a R$ 4.146,87 em 07/11/2026 não aparece mais na página; o preço pode mudar de novo até a Black Friday, em 27/11/2026.",
-        "base": "KaBuM, 08/11/2026 09:09; preço sugerido Sony, 26/10/2026"
+        "motivo": "Preço 7,0% abaixo do sugerido pela Sony (era R$ 4.364,03 em 08/11/2026), vendido e entregue pela KaBuM e em estoque. A campanha \"Esquenta 11do11\" da loja tem término informado em 13/11/2026 10:00; depois disso o preço pode mudar.",
+        "base": "KaBuM, 09/11/2026 09:14; preço sugerido Sony, 26/10/2026"
       },
       "como_chegar": [
         {
@@ -100,12 +100,12 @@
         "valor": "5099.90"
       },
       "variacao": "-7,0% em relação ao preço sugerido Sony",
-      "checado_em": "2026-11-08T09:09:00-03:00",
+      "checado_em": "2026-11-09T09:14:00-03:00",
       "checado_via": "página do produto na KaBuM",
       "veredito": {
         "tipo": "comprar",
-        "motivo": "Preço 7,0% abaixo do sugerido pela Sony, vendido e entregue pela KaBuM e em estoque. O preço não mudou desde 07/11/2026.",
-        "base": "KaBuM, 08/11/2026 09:09; preço sugerido Sony, 26/10/2026"
+        "motivo": "Preço 7,0% abaixo do sugerido pela Sony, vendido e entregue pela KaBuM e em estoque. A página não informa campanha com prazo.",
+        "base": "KaBuM, 09/11/2026 09:14; preço sugerido Sony, 26/10/2026"
       },
       "como_chegar": [
         {
@@ -115,6 +115,49 @@
         {
           "rotulo": "Por código do modelo",
           "texto": "1000049892"
+        }
+      ]
+    },
+    {
+      "id": "ps5-disco-1tb-astro-bot-gt7-kabum",
+      "categoria": "ps5",
+      "nome": "PlayStation 5 com leitor de discos 1TB + Astro Bot e Gran Turismo 7",
+      "especificacoes": "Console com leitor de disco, SSD de 1TB, controle DualSense, jogos Astro Bot e Gran Turismo 7",
+      "codigo_modelo": null,
+      "imagem": "https://images.kabum.com.br/produtos/fotos/934759/console-sony-playstation-5-com-leitor-de-discos-ssd-1tb-controle-sem-fio-dualsense-2-jogos_1760736613_g.jpg",
+      "loja": "KaBuM",
+      "vendedor": "KaBuM",
+      "fonte_verificada": true,
+      "evidencia": "pagina_produto",
+      "url_produto": "https://www.kabum.com.br/produto/934759/console-sony-playstation-5-com-leitor-de-discos-ssd-1tb-controle-sem-fio-dualsense-2-jogos",
+      "url_loja": "https://www.kabum.com.br/",
+      "afiliado": false,
+      "status": "ok",
+      "preco": {
+        "valor": "4742.07",
+        "condicao": "no Pix"
+      },
+      "parcelamento": {
+        "quantidade": 10,
+        "valor": "509.90",
+        "juros": false
+      },
+      "referencia": {
+        "rotulo": "Preço sugerido Sony (disco)",
+        "valor": "5099.90"
+      },
+      "variacao": "-7,0% em relação ao preço sugerido Sony",
+      "checado_em": "2026-11-09T09:14:00-03:00",
+      "checado_via": "página do produto na KaBuM",
+      "veredito": {
+        "tipo": "comprar",
+        "motivo": "Preço 7,0% abaixo do sugerido pela Sony (era R$ 5.114,07 em 08/11/2026), vendido e entregue pela KaBuM e em estoque. A campanha \"Esquenta 11do11\" da loja tem término informado em 13/11/2026 10:00; depois disso o preço pode mudar.",
+        "base": "KaBuM, 09/11/2026 09:14; preço sugerido Sony, 26/10/2026"
+      },
+      "como_chegar": [
+        {
+          "rotulo": "Por código KaBuM",
+          "texto": "934759"
         }
       ]
     },
@@ -143,12 +186,12 @@
         "valor": "5099.90"
       },
       "variacao": "-23,5% em relação ao preço sugerido Sony",
-      "checado_em": "2026-11-08T09:12:00-03:00",
+      "checado_em": "2026-11-09T09:15:00-03:00",
       "checado_via": "resumo de busca restrita a casasbahia.com.br (página não aberta)",
       "veredito": {
         "tipo": "sem_base",
         "motivo": "Preço 23,5% abaixo do sugerido pela Sony, lido só no resumo de busca, que não informa a forma de pagamento; na coleta de 06/11/2026 o vendedor indicado era a Game Play Fulfillment, parceiro do marketplace. Sem a página da loja aberta, não há base para recomendar a compra.",
-        "base": "Resumo de busca da Casas Bahia, 08/11/2026 09:12; preço sugerido Sony, 26/10/2026"
+        "base": "Resumo de busca da Casas Bahia, 09/11/2026 09:15; preço sugerido Sony, 26/10/2026"
       },
       "como_chegar": [
         {
@@ -186,12 +229,12 @@
         "valor": "4599.90"
       },
       "variacao": "-10,1% em relação ao preço sugerido Sony",
-      "checado_em": "2026-11-08T09:10:00-03:00",
+      "checado_em": "2026-11-09T09:14:00-03:00",
       "checado_via": "listagem de busca do catálogo da Fast Shop",
       "veredito": {
         "tipo": "sem_base",
         "motivo": "Preço 10,1% abaixo do sugerido pela Sony, mas vendido por parceiro do marketplace da Fast Shop (Webfones), e não pela Fast Shop. Sem fonte verificada, não há base para recomendar a compra.",
-        "base": "Fast Shop, 08/11/2026 09:10; preço sugerido Sony, 26/10/2026"
+        "base": "Fast Shop, 09/11/2026 09:14; preço sugerido Sony, 26/10/2026"
       },
       "como_chegar": [
         {
@@ -216,25 +259,25 @@
       "afiliado": false,
       "status": "ok",
       "preco": {
-        "valor": "4369.08",
+        "valor": "4356.93",
         "condicao": "no Pix"
       },
       "parcelamento": {
         "quantidade": 10,
-        "valor": "474.90",
+        "valor": "473.57",
         "juros": false
       },
       "referencia": {
         "rotulo": "Preço sugerido Sony (digital)",
         "valor": "4599.90"
       },
-      "variacao": "-5,0% em relação ao preço sugerido Sony",
-      "checado_em": "2026-11-08T09:09:00-03:00",
+      "variacao": "-5,3% em relação ao preço sugerido Sony",
+      "checado_em": "2026-11-09T09:14:00-03:00",
       "checado_via": "página do produto na KaBuM",
       "veredito": {
         "tipo": "sem_base",
-        "motivo": "Preço 5,0% abaixo do sugerido pela Sony, vendido pela Magalu dentro da KaBuM, vendedor que a regra atual não considera fonte verificada nesta loja.",
-        "base": "KaBuM, 08/11/2026 09:09; preço sugerido Sony, 26/10/2026"
+        "motivo": "Preço 5,3% abaixo do sugerido pela Sony, vendido pela Magalu dentro da KaBuM, vendedor que a regra atual não considera fonte verificada nesta loja.",
+        "base": "KaBuM, 09/11/2026 09:14; preço sugerido Sony, 26/10/2026"
       },
       "como_chegar": [
         {
@@ -272,12 +315,12 @@
         "valor": "4599.90"
       },
       "variacao": "-5,0% em relação ao preço sugerido Sony",
-      "checado_em": "2026-11-08T09:09:00-03:00",
+      "checado_em": "2026-11-09T09:14:00-03:00",
       "checado_via": "página do produto na KaBuM",
       "veredito": {
         "tipo": "sem_base",
-        "motivo": "Preço 5,0% abaixo do sugerido pela Sony, vendido e entregue pela KaBuM; a diferença exata é de 4,997%, abaixo do desconto mínimo de 5% para recomendar a compra.",
-        "base": "KaBuM, 08/11/2026 09:09; preço sugerido Sony, 26/10/2026"
+        "motivo": "Preço 5,0% abaixo do sugerido pela Sony, vendido e entregue pela KaBuM; a diferença exata é de 4,996%, abaixo do desconto mínimo de 5% para recomendar a compra.",
+        "base": "KaBuM, 09/11/2026 09:14; preço sugerido Sony, 26/10/2026"
       },
       "como_chegar": [
         {
@@ -319,60 +362,17 @@
         "valor": "5099.90"
       },
       "variacao": "-12,5% em relação ao preço sugerido Sony",
-      "checado_em": "2026-11-08T09:10:00-03:00",
+      "checado_em": "2026-11-09T09:14:00-03:00",
       "checado_via": "listagem de busca do catálogo da Fast Shop",
       "veredito": {
         "tipo": "sem_base",
         "motivo": "Preço 12,5% abaixo do sugerido pela Sony, mas vendido por parceiro do marketplace da Fast Shop (Webfones), e não pela Fast Shop. Sem fonte verificada, não há base para recomendar a compra.",
-        "base": "Fast Shop, 08/11/2026 09:10; preço sugerido Sony, 26/10/2026"
+        "base": "Fast Shop, 09/11/2026 09:14; preço sugerido Sony, 26/10/2026"
       },
       "como_chegar": [
         {
           "rotulo": "Por código Fast Shop",
           "texto": "173286"
-        }
-      ]
-    },
-    {
-      "id": "ps5-slim-disco-1tb-negociun-fastshop",
-      "categoria": "ps5",
-      "nome": "PlayStation 5 Slim com leitor de discos 1TB",
-      "especificacoes": "Console Slim com leitor de discos, SSD de 1TB, controle DualSense",
-      "codigo_modelo": null,
-      "imagem": "https://fastshopbr.vteximg.com.br/arquivos/ids/5568544/17881876435134.jpg?v=639244843080130000",
-      "loja": "Fast Shop",
-      "vendedor": "Negociun",
-      "fonte_verificada": false,
-      "evidencia": "listagem_loja",
-      "url_produto": "https://site.fastshop.com.br/console-playstation-5-slim-disk-1tb---so-187040/p",
-      "url_loja": "https://www.fastshop.com.br/",
-      "afiliado": false,
-      "status": "ok",
-      "preco": {
-        "valor": "4819.00",
-        "condicao": "no Pix"
-      },
-      "parcelamento": {
-        "quantidade": 10,
-        "valor": "481.90",
-        "juros": false
-      },
-      "referencia": {
-        "rotulo": "Preço sugerido Sony (disco)",
-        "valor": "5099.90"
-      },
-      "variacao": "-5,5% em relação ao preço sugerido Sony",
-      "checado_em": "2026-11-08T09:11:00-03:00",
-      "checado_via": "listagem de busca do catálogo da Fast Shop",
-      "veredito": {
-        "tipo": "sem_base",
-        "motivo": "Preço 5,5% abaixo do sugerido pela Sony, mas vendido por parceiro do marketplace da Fast Shop (Negociun), e não pela Fast Shop. Sem fonte verificada, não há base para recomendar a compra.",
-        "base": "Fast Shop, 08/11/2026 09:11; preço sugerido Sony, 26/10/2026"
-      },
-      "como_chegar": [
-        {
-          "rotulo": "Por código Fast Shop",
-          "texto": "187040"
         }
       ]
     },
@@ -405,12 +405,12 @@
         "valor": "2598.00"
       },
       "variacao": "+19,2% em relação à referência",
-      "checado_em": "2026-11-08T09:10:00-03:00",
+      "checado_em": "2026-11-09T09:14:00-03:00",
       "checado_via": "listagem de busca do catálogo da Fast Shop",
       "veredito": {
         "tipo": "esperar",
         "motivo": "Preço 19,2% acima do menor preço conhecido do i3-1315U, vendido por Negociun no marketplace da Fast Shop. Com a Black Friday em 27/11/2026, o preço pode cair, sem garantia.",
-        "base": "Fast Shop, 08/11/2026 09:10; menor preço conhecido do i3-1315U (Amazon, dez/2025)"
+        "base": "Fast Shop, 09/11/2026 09:14; menor preço conhecido do i3-1315U (Amazon, dez/2025)"
       },
       "como_chegar": [
         {
@@ -420,96 +420,6 @@
         {
           "rotulo": "Por código Fast Shop",
           "texto": "186220"
-        }
-      ]
-    },
-    {
-      "id": "acer-aspire-go-i3-1305u-256gb-kabum",
-      "categoria": "notebooks",
-      "nome": "Acer Aspire Go 15, Core i3-1305U, 8GB, 256GB SSD, Windows 11, 15,3\"",
-      "especificacoes": "Intel Core i3-1305U, 8GB DDR5, SSD de 256GB, Windows 11, tela de 15,3\" WUXGA",
-      "codigo_modelo": null,
-      "imagem": "https://images.kabum.com.br/produtos/fotos/sync_mirakl/953007/large/Notebook-Acer-Aspire-Go-Intel-i3-1305U-8GB-DDR5-SSD-256GB-Tela-15-3-WUXGA-Windows-11-Azul-Escuro_1788495220.jpg",
-      "loja": "KaBuM",
-      "vendedor": "Magalu",
-      "fonte_verificada": false,
-      "evidencia": "pagina_produto",
-      "url_produto": "https://www.kabum.com.br/produto/953007/notebook-acer-aspire-go-intel-i3-1305u-8gb-ddr5-ssd-256gb-tela-15-3-wuxga-windows-11-azul-escuro",
-      "url_loja": "https://www.kabum.com.br/",
-      "afiliado": false,
-      "status": "ok",
-      "preco": {
-        "valor": "3239.10",
-        "condicao": "no Pix"
-      },
-      "parcelamento": {
-        "quantidade": 10,
-        "valor": "359.90",
-        "juros": false
-      },
-      "referencia": {
-        "rotulo": "Menor preço conhecido do i3-1315U (Amazon, dez/2025)",
-        "valor": "2598.00"
-      },
-      "variacao": "+24,7% em relação à referência",
-      "checado_em": "2026-11-08T09:09:00-03:00",
-      "checado_via": "página do produto na KaBuM",
-      "veredito": {
-        "tipo": "esperar",
-        "motivo": "Preço 24,7% acima do menor preço conhecido do i3-1315U, vendido por Magalu no marketplace da KaBuM. Com a Black Friday em 27/11/2026, o preço pode cair, sem garantia.",
-        "base": "KaBuM, 08/11/2026 09:09; menor preço conhecido do i3-1315U (Amazon, dez/2025)"
-      },
-      "como_chegar": [
-        {
-          "rotulo": "Por código KaBuM",
-          "texto": "953007"
-        }
-      ]
-    },
-    {
-      "id": "samsung-galaxy-book4-np750xgj-kg5br-kabum",
-      "categoria": "notebooks",
-      "nome": "Samsung Galaxy Book4, Core i3-1315U, 8GB, 256GB SSD, Windows 11, 15,6\"",
-      "especificacoes": "Intel Core i3-1315U, 8GB de RAM, SSD de 256GB, Windows 11 Home, tela de 15,6\" Full HD",
-      "codigo_modelo": "NP750XGJ-KG5BR",
-      "imagem": "https://images.kabum.com.br/produtos/fotos/sync_mirakl/586453/large/Notebook-Samsung-Galaxy-Book4-Intel-Core-I3-8GB-SSD-256GB-Tela-15-6-Full-HD-LED-Windows-11-Home-Grafite_1777406014.jpg",
-      "loja": "KaBuM",
-      "vendedor": "Magalu",
-      "fonte_verificada": false,
-      "evidencia": "pagina_produto",
-      "url_produto": "https://www.kabum.com.br/produto/586453/notebook-samsung-galaxy-book4-intel-core-i3-8gb-ssd-256gb-tela-15-6-full-hd-led-windows-11-home-grafite",
-      "url_loja": "https://www.kabum.com.br/",
-      "afiliado": false,
-      "status": "ok",
-      "preco": {
-        "valor": "3284.10",
-        "condicao": "no Pix"
-      },
-      "parcelamento": {
-        "quantidade": 10,
-        "valor": "364.90",
-        "juros": false
-      },
-      "referencia": {
-        "rotulo": "Menor preço conhecido do i3-1315U (Amazon, dez/2025)",
-        "valor": "2598.00"
-      },
-      "variacao": "+26,4% em relação à referência",
-      "checado_em": "2026-11-08T09:09:00-03:00",
-      "checado_via": "página do produto na KaBuM",
-      "veredito": {
-        "tipo": "esperar",
-        "motivo": "Preço 26,4% acima do menor preço conhecido do i3-1315U, vendido por Magalu no marketplace da KaBuM. Com a Black Friday em 27/11/2026, o preço pode cair, sem garantia.",
-        "base": "KaBuM, 08/11/2026 09:09; menor preço conhecido do i3-1315U (Amazon, dez/2025)"
-      },
-      "como_chegar": [
-        {
-          "rotulo": "Por código KaBuM",
-          "texto": "586453"
-        },
-        {
-          "rotulo": "Por código do modelo",
-          "texto": "NP750XGJ-KG5BR"
         }
       ]
     },
@@ -542,12 +452,12 @@
         "valor": "2598.00"
       },
       "variacao": "+27,0% em relação à referência",
-      "checado_em": "2026-11-08T09:09:00-03:00",
+      "checado_em": "2026-11-09T09:14:00-03:00",
       "checado_via": "página do produto na KaBuM",
       "veredito": {
         "tipo": "esperar",
         "motivo": "Preço 27,0% acima do menor preço conhecido do i3-1315U, vendido por BringIT no marketplace da KaBuM. Com a Black Friday em 27/11/2026, o preço pode cair, sem garantia.",
-        "base": "KaBuM, 08/11/2026 09:09; menor preço conhecido do i3-1315U (Amazon, dez/2025)"
+        "base": "KaBuM, 09/11/2026 09:14; menor preço conhecido do i3-1315U (Amazon, dez/2025)"
       },
       "como_chegar": [
         {
@@ -585,12 +495,12 @@
         "valor": "2598.00"
       },
       "variacao": "+27,9% em relação à referência",
-      "checado_em": "2026-11-08T09:09:00-03:00",
+      "checado_em": "2026-11-09T09:14:00-03:00",
       "checado_via": "página do produto na KaBuM",
       "veredito": {
         "tipo": "esperar",
         "motivo": "Preço 27,9% acima do menor preço conhecido do i3-1315U, vendido por Magalu no marketplace da KaBuM. Com a Black Friday em 27/11/2026, o preço pode cair, sem garantia.",
-        "base": "KaBuM, 08/11/2026 09:09; menor preço conhecido do i3-1315U (Amazon, dez/2025)"
+        "base": "KaBuM, 09/11/2026 09:14; menor preço conhecido do i3-1315U (Amazon, dez/2025)"
       },
       "como_chegar": [
         {
@@ -600,6 +510,96 @@
         {
           "rotulo": "Por código do modelo",
           "texto": "83NU0000BR"
+        }
+      ]
+    },
+    {
+      "id": "acer-aspire-go-i3-1305u-256gb-kabum",
+      "categoria": "notebooks",
+      "nome": "Acer Aspire Go 15, Core i3-1305U, 8GB, 256GB SSD, Windows 11, 15,3\"",
+      "especificacoes": "Intel Core i3-1305U, 8GB DDR5, SSD de 256GB, Windows 11, tela de 15,3\" WUXGA",
+      "codigo_modelo": null,
+      "imagem": "https://images.kabum.com.br/produtos/fotos/sync_mirakl/953007/large/Notebook-Acer-Aspire-Go-Intel-i3-1305U-8GB-DDR5-SSD-256GB-Tela-15-3-WUXGA-Windows-11-Azul-Escuro_1788495220.jpg",
+      "loja": "KaBuM",
+      "vendedor": "Magalu",
+      "fonte_verificada": false,
+      "evidencia": "pagina_produto",
+      "url_produto": "https://www.kabum.com.br/produto/953007/notebook-acer-aspire-go-intel-i3-1305u-8gb-ddr5-ssd-256gb-tela-15-3-wuxga-windows-11-azul-escuro",
+      "url_loja": "https://www.kabum.com.br/",
+      "afiliado": false,
+      "status": "ok",
+      "preco": {
+        "valor": "3329.10",
+        "condicao": "no Pix"
+      },
+      "parcelamento": {
+        "quantidade": 10,
+        "valor": "369.90",
+        "juros": false
+      },
+      "referencia": {
+        "rotulo": "Menor preço conhecido do i3-1315U (Amazon, dez/2025)",
+        "valor": "2598.00"
+      },
+      "variacao": "+28,1% em relação à referência",
+      "checado_em": "2026-11-09T09:14:00-03:00",
+      "checado_via": "página do produto na KaBuM",
+      "veredito": {
+        "tipo": "esperar",
+        "motivo": "Preço 28,1% acima do menor preço conhecido do i3-1315U, vendido por Magalu no marketplace da KaBuM. Com a Black Friday em 27/11/2026, o preço pode cair, sem garantia.",
+        "base": "KaBuM, 09/11/2026 09:14; menor preço conhecido do i3-1315U (Amazon, dez/2025)"
+      },
+      "como_chegar": [
+        {
+          "rotulo": "Por código KaBuM",
+          "texto": "953007"
+        }
+      ]
+    },
+    {
+      "id": "samsung-galaxy-book4-np750xgj-kg5br-kabum",
+      "categoria": "notebooks",
+      "nome": "Samsung Galaxy Book4, Core i3-1315U, 8GB, 256GB SSD, Windows 11, 15,6\"",
+      "especificacoes": "Intel Core i3-1315U, 8GB de RAM, SSD de 256GB, Windows 11 Home, tela de 15,6\" Full HD",
+      "codigo_modelo": "NP750XGJ-KG5BR",
+      "imagem": "https://images.kabum.com.br/produtos/fotos/sync_mirakl/586453/large/Notebook-Samsung-Galaxy-Book4-Intel-Core-I3-8GB-SSD-256GB-Tela-15-6-Full-HD-LED-Windows-11-Home-Grafite_1777406014.jpg",
+      "loja": "KaBuM",
+      "vendedor": "Magalu",
+      "fonte_verificada": false,
+      "evidencia": "pagina_produto",
+      "url_produto": "https://www.kabum.com.br/produto/586453/notebook-samsung-galaxy-book4-intel-core-i3-8gb-ssd-256gb-tela-15-6-full-hd-led-windows-11-home-grafite",
+      "url_loja": "https://www.kabum.com.br/",
+      "afiliado": false,
+      "status": "ok",
+      "preco": {
+        "valor": "3329.10",
+        "condicao": "no Pix"
+      },
+      "parcelamento": {
+        "quantidade": 10,
+        "valor": "369.90",
+        "juros": false
+      },
+      "referencia": {
+        "rotulo": "Menor preço conhecido do i3-1315U (Amazon, dez/2025)",
+        "valor": "2598.00"
+      },
+      "variacao": "+28,1% em relação à referência",
+      "checado_em": "2026-11-09T09:14:00-03:00",
+      "checado_via": "página do produto na KaBuM",
+      "veredito": {
+        "tipo": "esperar",
+        "motivo": "Preço 28,1% acima do menor preço conhecido do i3-1315U, vendido por Magalu no marketplace da KaBuM. Com a Black Friday em 27/11/2026, o preço pode cair, sem garantia.",
+        "base": "KaBuM, 09/11/2026 09:14; menor preço conhecido do i3-1315U (Amazon, dez/2025)"
+      },
+      "como_chegar": [
+        {
+          "rotulo": "Por código KaBuM",
+          "texto": "586453"
+        },
+        {
+          "rotulo": "Por código do modelo",
+          "texto": "NP750XGJ-KG5BR"
         }
       ]
     },
@@ -632,12 +632,12 @@
         "valor": "2598.00"
       },
       "variacao": "+28,8% em relação à referência",
-      "checado_em": "2026-11-08T09:09:00-03:00",
+      "checado_em": "2026-11-09T09:14:00-03:00",
       "checado_via": "página do produto na KaBuM",
       "veredito": {
         "tipo": "esperar",
         "motivo": "Preço 28,8% acima do menor preço conhecido do i3-1315U, vendido por Magalu no marketplace da KaBuM. Com a Black Friday em 27/11/2026, o preço pode cair, sem garantia.",
-        "base": "KaBuM, 08/11/2026 09:09; menor preço conhecido do i3-1315U (Amazon, dez/2025)"
+        "base": "KaBuM, 09/11/2026 09:14; menor preço conhecido do i3-1315U (Amazon, dez/2025)"
       },
       "como_chegar": [
         {
@@ -679,12 +679,12 @@
         "valor": "2598.00"
       },
       "variacao": "+30,1% em relação à referência",
-      "checado_em": "2026-11-08T09:10:00-03:00",
+      "checado_em": "2026-11-09T09:14:00-03:00",
       "checado_via": "listagem de busca do catálogo da Fast Shop",
       "veredito": {
         "tipo": "esperar",
         "motivo": "Preço 30,1% acima do menor preço conhecido do i3-1315U, vendido por Lenovo Brasil no marketplace da Fast Shop. Com a Black Friday em 27/11/2026, o preço pode cair, sem garantia.",
-        "base": "Fast Shop, 08/11/2026 09:10; menor preço conhecido do i3-1315U (Amazon, dez/2025)"
+        "base": "Fast Shop, 09/11/2026 09:14; menor preço conhecido do i3-1315U (Amazon, dez/2025)"
       },
       "como_chegar": [
         {
@@ -727,7 +727,7 @@
         "valor": "379.90",
         "juros": false
       },
-      "checado_em": "2026-11-08T09:09:00-03:00",
+      "checado_em": "2026-11-09T09:14:00-03:00",
       "checado_via": "página do produto na KaBuM",
       "evidencia": "pagina_produto",
       "status": "ok",
@@ -741,176 +741,8 @@
       "veredito": {
         "tipo": "esperar",
         "motivo": "Preço 31,6% acima do menor preço conhecido do i3-1315U, vendido por Magalu no marketplace da KaBuM. Com a Black Friday em 27/11/2026, o preço pode cair, sem garantia.",
-        "base": "KaBuM, 08/11/2026 09:09; menor preço conhecido do i3-1315U (Amazon, dez/2025)"
+        "base": "KaBuM, 09/11/2026 09:14; menor preço conhecido do i3-1315U (Amazon, dez/2025)"
       }
-    },
-    {
-      "id": "lenovo-idea-tab-8gb-256gb-capa-caneta-zafr0959br-fastshop",
-      "categoria": "tablets",
-      "nome": "Lenovo Idea Tab 8GB 256GB com capa e caneta (ZAFR0959BR)",
-      "especificacoes": "Android, processador octa-core, 8GB de RAM, 256GB de armazenamento, capa e caneta inclusas",
-      "codigo_modelo": "ZAFR0959BR",
-      "imagem": "https://fastshopbr.vteximg.com.br/arquivos/ids/3717792/17691057673432.jpg",
-      "loja": "Fast Shop",
-      "vendedor": "Lenovo Brasil",
-      "fonte_verificada": false,
-      "evidencia": "listagem_loja",
-      "url_produto": "https://site.fastshop.com.br/tablet-lenovo-idea-tab-octa-core-8gb-ram-256gb-com-capa-e-caneta-luna-grey---zafr0959br-149834/p",
-      "url_loja": "https://www.fastshop.com.br/",
-      "afiliado": false,
-      "status": "ok",
-      "preco": {
-        "valor": "1934.14",
-        "condicao": "no Pix"
-      },
-      "parcelamento": {
-        "quantidade": 10,
-        "valor": "224.90",
-        "juros": false
-      },
-      "referencia": null,
-      "variacao": null,
-      "checado_em": "2026-11-08T09:10:00-03:00",
-      "checado_via": "listagem de busca do catálogo da Fast Shop",
-      "veredito": {
-        "tipo": "sem_base",
-        "motivo": "Vendido pela Lenovo Brasil no marketplace da Fast Shop, que a regra atual não conta como fonte verificada. Sem referência de mercado registrada para este modelo, não há base para dizer se o preço está bom.",
-        "base": "Fast Shop, 08/11/2026 09:10; sem referência de mercado"
-      },
-      "como_chegar": [
-        {
-          "rotulo": "Por código Fast Shop",
-          "texto": "149834"
-        }
-      ]
-    },
-    {
-      "id": "lenovo-idea-tab-8gb-256gb-capa-caneta-zafr0959br-kabum",
-      "categoria": "tablets",
-      "nome": "Lenovo Idea Tab 8GB 256GB com capa e caneta (ZAFR0959BR)",
-      "especificacoes": "Android, processador octa-core, 8GB de RAM, 256GB de armazenamento, capa e caneta inclusas",
-      "codigo_modelo": "ZAFR0959BR",
-      "imagem": "https://images.kabum.com.br/produtos/fotos/sync_mirakl/999176/medium/Tablet-Lenovo-Idea-Tab-Octa-Core-8GB-Ram-256gb-Com-Capa-E-Caneta-Luna-Grey-Zafr0959br_1792953520.jpg",
-      "loja": "KaBuM",
-      "vendedor": "LENOVO",
-      "fonte_verificada": true,
-      "evidencia": "pagina_produto",
-      "url_produto": "https://www.kabum.com.br/produto/999176/tablet-lenovo-idea-tab-octa-core-8gb-ram-256gb-com-capa-e-caneta-luna-grey-zafr0959br",
-      "url_loja": "https://www.kabum.com.br/",
-      "afiliado": false,
-      "status": "ok",
-      "preco": {
-        "valor": "2037.34",
-        "condicao": "no Pix"
-      },
-      "parcelamento": {
-        "quantidade": 10,
-        "valor": "236.90",
-        "juros": false
-      },
-      "referencia": null,
-      "variacao": null,
-      "checado_em": "2026-11-08T09:09:00-03:00",
-      "checado_via": "página do produto na KaBuM",
-      "veredito": {
-        "tipo": "sem_base",
-        "motivo": "Vendido pela Lenovo dentro da KaBuM e em estoque. Sem referência de mercado registrada para este modelo, não há base para dizer se o preço está bom.",
-        "base": "KaBuM, 08/11/2026 09:09; sem referência de mercado"
-      },
-      "como_chegar": [
-        {
-          "rotulo": "Por código KaBuM",
-          "texto": "999176"
-        },
-        {
-          "rotulo": "Por código do modelo",
-          "texto": "ZAFR0959BR"
-        }
-      ]
-    },
-    {
-      "id": "lenovo-idea-tab-8gb-256gb-capa-teclado-zafr0953br-fastshop",
-      "categoria": "tablets",
-      "nome": "Lenovo Idea Tab 11\" 8GB 256GB com caneta e capa teclado (ZAFR0953BR)",
-      "especificacoes": "Android 15, tela de 11\" 2.5K 90Hz, 8GB de RAM, 256GB de armazenamento, Wi-Fi, caneta e capa teclado inclusas",
-      "codigo_modelo": "ZAFR0953BR",
-      "imagem": "https://fastshopbr.vteximg.com.br/arquivos/ids/5112598/17812640234929.jpg",
-      "loja": "Fast Shop",
-      "vendedor": "Lenovo Brasil",
-      "fonte_verificada": false,
-      "evidencia": "listagem_loja",
-      "url_produto": "https://site.fastshop.com.br/tablet-lenovo-idea-tab-8gb-ram-256gb-11%E2%80%9D-2-5k-90hz-android-15-wi-fi-com-caneta-e-capa-teclado-zafr0953br-174797/p",
-      "url_loja": "https://www.fastshop.com.br/",
-      "afiliado": false,
-      "status": "ok",
-      "preco": {
-        "valor": "2106.14",
-        "condicao": "no Pix"
-      },
-      "parcelamento": {
-        "quantidade": 10,
-        "valor": "244.90",
-        "juros": false
-      },
-      "referencia": null,
-      "variacao": null,
-      "checado_em": "2026-11-08T09:10:00-03:00",
-      "checado_via": "listagem de busca do catálogo da Fast Shop",
-      "veredito": {
-        "tipo": "sem_base",
-        "motivo": "Vendido pela Lenovo Brasil no marketplace da Fast Shop, que a regra atual não conta como fonte verificada. Sem referência de mercado registrada para este modelo, não há base para dizer se o preço está bom.",
-        "base": "Fast Shop, 08/11/2026 09:10; sem referência de mercado"
-      },
-      "como_chegar": [
-        {
-          "rotulo": "Por código Fast Shop",
-          "texto": "174797"
-        }
-      ]
-    },
-    {
-      "id": "lenovo-idea-tab-8gb-256gb-capa-teclado-zafr0953br-kabum",
-      "categoria": "tablets",
-      "nome": "Lenovo Idea Tab 11\" 8GB 256GB com caneta e capa teclado (ZAFR0953BR)",
-      "especificacoes": "Android 15, tela de 11\" 2.5K 90Hz, 8GB de RAM, 256GB de armazenamento, Wi-Fi, caneta e capa teclado inclusas",
-      "codigo_modelo": "ZAFR0953BR",
-      "imagem": "https://images.kabum.com.br/produtos/fotos/sync_mirakl/1048783/medium/Tablet-Lenovo-Idea-Tab-8GB-Ram-256gb-11-2-5k-90hz-Android-15-Wi-fi-Com-Caneta-E-Capa-Teclado-Zafr0953br_1784923182.jpg",
-      "loja": "KaBuM",
-      "vendedor": "LENOVO",
-      "fonte_verificada": true,
-      "evidencia": "pagina_produto",
-      "url_produto": "https://www.kabum.com.br/produto/1048783/tablet-lenovo-idea-tab-8gb-ram-256gb-11-2-5k-90hz-android-15-wi-fi-com-caneta-e-capa-teclado-zafr0953br",
-      "url_loja": "https://www.kabum.com.br/",
-      "afiliado": false,
-      "status": "ok",
-      "preco": {
-        "valor": "2123.34",
-        "condicao": "no Pix"
-      },
-      "parcelamento": {
-        "quantidade": 10,
-        "valor": "246.90",
-        "juros": false
-      },
-      "referencia": null,
-      "variacao": null,
-      "checado_em": "2026-11-08T09:09:00-03:00",
-      "checado_via": "página do produto na KaBuM",
-      "veredito": {
-        "tipo": "sem_base",
-        "motivo": "Vendido pela Lenovo dentro da KaBuM e em estoque. Sem referência de mercado registrada para este modelo, não há base para dizer se o preço está bom.",
-        "base": "KaBuM, 08/11/2026 09:09; sem referência de mercado"
-      },
-      "como_chegar": [
-        {
-          "rotulo": "Por código KaBuM",
-          "texto": "1048783"
-        },
-        {
-          "rotulo": "Por código do modelo",
-          "texto": "ZAFR0953BR"
-        }
-      ]
     },
     {
       "id": "xiaomi-redmi-pad-2-8gb-256gb-cinza-kabum",
@@ -941,12 +773,12 @@
         "valor": "1147.00"
       },
       "variacao": "+44,6% em relação à referência",
-      "checado_em": "2026-11-08T09:09:00-03:00",
+      "checado_em": "2026-11-09T09:14:00-03:00",
       "checado_via": "página do produto na KaBuM",
       "veredito": {
         "tipo": "esperar",
         "motivo": "Preço 44,6% acima do menor preço conhecido do Redmi Pad 2 8GB/256GB, vendido por LuneImporte, parceiro do marketplace da KaBuM. Com a Black Friday em 27/11/2026, o preço pode cair, sem garantia.",
-        "base": "KaBuM, 08/11/2026 09:09; menor preço conhecido do Redmi Pad 2 8GB/256GB (Mercado Livre, 26/10/2026)"
+        "base": "KaBuM, 09/11/2026 09:14; menor preço conhecido do Redmi Pad 2 8GB/256GB (Mercado Livre, 26/10/2026)"
       },
       "como_chegar": [
         {
@@ -984,12 +816,12 @@
         "valor": "1147.00"
       },
       "variacao": "+49,9% em relação à referência",
-      "checado_em": "2026-11-08T09:09:00-03:00",
+      "checado_em": "2026-11-09T09:14:00-03:00",
       "checado_via": "página do produto na KaBuM",
       "veredito": {
         "tipo": "esperar",
         "motivo": "Preço 49,9% acima do menor preço conhecido do Redmi Pad 2 8GB/256GB, vendido por VTX COMERCIO DE VARIEDADES, parceiro do marketplace da KaBuM. Com a Black Friday em 27/11/2026, o preço pode cair, sem garantia.",
-        "base": "KaBuM, 08/11/2026 09:09; menor preço conhecido do Redmi Pad 2 8GB/256GB (Mercado Livre, 26/10/2026)"
+        "base": "KaBuM, 09/11/2026 09:14; menor preço conhecido do Redmi Pad 2 8GB/256GB (Mercado Livre, 26/10/2026)"
       },
       "como_chegar": [
         {
@@ -1027,17 +859,101 @@
         "valor": "1147.00"
       },
       "variacao": "+55,2% em relação à referência",
-      "checado_em": "2026-11-08T09:09:00-03:00",
+      "checado_em": "2026-11-09T09:14:00-03:00",
       "checado_via": "página do produto na KaBuM",
       "veredito": {
         "tipo": "esperar",
         "motivo": "Preço 55,2% acima do menor preço conhecido do Redmi Pad 2 8GB/256GB, vendido por IRON STORE, parceiro do marketplace da KaBuM. Com a Black Friday em 27/11/2026, o preço pode cair, sem garantia.",
-        "base": "KaBuM, 08/11/2026 09:09; menor preço conhecido do Redmi Pad 2 8GB/256GB (Mercado Livre, 26/10/2026)"
+        "base": "KaBuM, 09/11/2026 09:14; menor preço conhecido do Redmi Pad 2 8GB/256GB (Mercado Livre, 26/10/2026)"
       },
       "como_chegar": [
         {
           "rotulo": "Por código KaBuM",
           "texto": "1066525"
+        }
+      ]
+    },
+    {
+      "id": "lenovo-idea-tab-8gb-256gb-capa-caneta-zafr0959br-fastshop",
+      "categoria": "tablets",
+      "nome": "Lenovo Idea Tab 8GB 256GB com capa e caneta (ZAFR0959BR)",
+      "especificacoes": "Android, processador octa-core, 8GB de RAM, 256GB de armazenamento, capa e caneta inclusas",
+      "codigo_modelo": "ZAFR0959BR",
+      "imagem": "https://fastshopbr.vteximg.com.br/arquivos/ids/3717792/17691057673432.jpg",
+      "loja": "Fast Shop",
+      "vendedor": "Lenovo Brasil",
+      "fonte_verificada": false,
+      "evidencia": "listagem_loja",
+      "url_produto": "https://site.fastshop.com.br/tablet-lenovo-idea-tab-octa-core-8gb-ram-256gb-com-capa-e-caneta-luna-grey---zafr0959br-149834/p",
+      "url_loja": "https://www.fastshop.com.br/",
+      "afiliado": false,
+      "status": "ok",
+      "preco": {
+        "valor": "1934.14",
+        "condicao": "no Pix"
+      },
+      "parcelamento": {
+        "quantidade": 10,
+        "valor": "224.90",
+        "juros": false
+      },
+      "referencia": null,
+      "variacao": null,
+      "checado_em": "2026-11-09T09:14:00-03:00",
+      "checado_via": "listagem de busca do catálogo da Fast Shop",
+      "veredito": {
+        "tipo": "sem_base",
+        "motivo": "Vendido pela Lenovo Brasil no marketplace da Fast Shop, que a regra atual não conta como fonte verificada. Sem referência de mercado registrada para este modelo, não há base para dizer se o preço está bom.",
+        "base": "Fast Shop, 09/11/2026 09:14; sem referência de mercado"
+      },
+      "como_chegar": [
+        {
+          "rotulo": "Por código Fast Shop",
+          "texto": "149834"
+        }
+      ]
+    },
+    {
+      "id": "lenovo-idea-tab-8gb-256gb-capa-caneta-zafr0959br-kabum",
+      "categoria": "tablets",
+      "nome": "Lenovo Idea Tab 8GB 256GB com capa e caneta (ZAFR0959BR)",
+      "especificacoes": "Android, processador octa-core, 8GB de RAM, 256GB de armazenamento, capa e caneta inclusas",
+      "codigo_modelo": "ZAFR0959BR",
+      "imagem": "https://images.kabum.com.br/produtos/fotos/sync_mirakl/999176/medium/Tablet-Lenovo-Idea-Tab-Octa-Core-8GB-Ram-256gb-Com-Capa-E-Caneta-Luna-Grey-Zafr0959br_1792953520.jpg",
+      "loja": "KaBuM",
+      "vendedor": "LENOVO",
+      "fonte_verificada": true,
+      "evidencia": "pagina_produto",
+      "url_produto": "https://www.kabum.com.br/produto/999176/tablet-lenovo-idea-tab-octa-core-8gb-ram-256gb-com-capa-e-caneta-luna-grey-zafr0959br",
+      "url_loja": "https://www.kabum.com.br/",
+      "afiliado": false,
+      "status": "ok",
+      "preco": {
+        "valor": "2037.34",
+        "condicao": "no Pix"
+      },
+      "parcelamento": {
+        "quantidade": 10,
+        "valor": "236.90",
+        "juros": false
+      },
+      "referencia": null,
+      "variacao": null,
+      "checado_em": "2026-11-09T09:14:00-03:00",
+      "checado_via": "página do produto na KaBuM",
+      "veredito": {
+        "tipo": "sem_base",
+        "motivo": "Vendido pela Lenovo dentro da KaBuM e em estoque. Sem referência de mercado registrada para este modelo, não há base para dizer se o preço está bom.",
+        "base": "KaBuM, 09/11/2026 09:14; sem referência de mercado"
+      },
+      "como_chegar": [
+        {
+          "rotulo": "Por código KaBuM",
+          "texto": "999176"
+        },
+        {
+          "rotulo": "Por código do modelo",
+          "texto": "ZAFR0959BR"
         }
       ]
     },
@@ -1067,7 +983,7 @@
         "valor": "208.29",
         "juros": false
       },
-      "checado_em": "2026-11-08T09:09:00-03:00",
+      "checado_em": "2026-11-09T09:14:00-03:00",
       "checado_via": "página do produto na KaBuM",
       "evidencia": "pagina_produto",
       "status": "ok",
@@ -1081,15 +997,98 @@
       "veredito": {
         "tipo": "esperar",
         "motivo": "Preço 81,6% acima do menor preço conhecido do Redmi Pad 2 8GB/256GB, vendido por VENDA MAIS - LOJAS MINEIRAS, parceiro do marketplace da KaBuM. Com a Black Friday em 27/11/2026, o preço pode cair, sem garantia.",
-        "base": "KaBuM, 08/11/2026 09:09; menor preço conhecido do Redmi Pad 2 8GB/256GB (Mercado Livre, 26/10/2026)"
+        "base": "KaBuM, 09/11/2026 09:14; menor preço conhecido do Redmi Pad 2 8GB/256GB (Mercado Livre, 26/10/2026)"
       }
+    },
+    {
+      "id": "lenovo-idea-tab-8gb-256gb-capa-teclado-zafr0953br-fastshop",
+      "categoria": "tablets",
+      "nome": "Lenovo Idea Tab 11\" 8GB 256GB com caneta e capa teclado (ZAFR0953BR)",
+      "especificacoes": "Android 15, tela de 11\" 2.5K 90Hz, 8GB de RAM, 256GB de armazenamento, Wi-Fi, caneta e capa teclado inclusas",
+      "codigo_modelo": "ZAFR0953BR",
+      "imagem": "https://fastshopbr.vteximg.com.br/arquivos/ids/5112598/17812640234929.jpg",
+      "loja": "Fast Shop",
+      "vendedor": "Lenovo Brasil",
+      "fonte_verificada": false,
+      "evidencia": "listagem_loja",
+      "url_produto": "https://site.fastshop.com.br/tablet-lenovo-idea-tab-8gb-ram-256gb-11%E2%80%9D-2-5k-90hz-android-15-wi-fi-com-caneta-e-capa-teclado-zafr0953br-174797/p",
+      "url_loja": "https://www.fastshop.com.br/",
+      "afiliado": false,
+      "status": "ok",
+      "preco": {
+        "valor": "2106.14",
+        "condicao": "no Pix"
+      },
+      "parcelamento": {
+        "quantidade": 10,
+        "valor": "244.90",
+        "juros": false
+      },
+      "referencia": null,
+      "variacao": null,
+      "checado_em": "2026-11-09T09:14:00-03:00",
+      "checado_via": "listagem de busca do catálogo da Fast Shop",
+      "veredito": {
+        "tipo": "sem_base",
+        "motivo": "Vendido pela Lenovo Brasil no marketplace da Fast Shop, que a regra atual não conta como fonte verificada. Sem referência de mercado registrada para este modelo, não há base para dizer se o preço está bom.",
+        "base": "Fast Shop, 09/11/2026 09:14; sem referência de mercado"
+      },
+      "como_chegar": [
+        {
+          "rotulo": "Por código Fast Shop",
+          "texto": "174797"
+        }
+      ]
+    },
+    {
+      "id": "lenovo-idea-tab-8gb-256gb-capa-teclado-zafr0953br-kabum",
+      "categoria": "tablets",
+      "nome": "Lenovo Idea Tab 11\" 8GB 256GB com caneta e capa teclado (ZAFR0953BR)",
+      "especificacoes": "Android 15, tela de 11\" 2.5K 90Hz, 8GB de RAM, 256GB de armazenamento, Wi-Fi, caneta e capa teclado inclusas",
+      "codigo_modelo": "ZAFR0953BR",
+      "imagem": "https://images.kabum.com.br/produtos/fotos/sync_mirakl/1048783/medium/Tablet-Lenovo-Idea-Tab-8GB-Ram-256gb-11-2-5k-90hz-Android-15-Wi-fi-Com-Caneta-E-Capa-Teclado-Zafr0953br_1784923182.jpg",
+      "loja": "KaBuM",
+      "vendedor": "LENOVO",
+      "fonte_verificada": true,
+      "evidencia": "pagina_produto",
+      "url_produto": "https://www.kabum.com.br/produto/1048783/tablet-lenovo-idea-tab-8gb-ram-256gb-11-2-5k-90hz-android-15-wi-fi-com-caneta-e-capa-teclado-zafr0953br",
+      "url_loja": "https://www.kabum.com.br/",
+      "afiliado": false,
+      "status": "ok",
+      "preco": {
+        "valor": "2123.34",
+        "condicao": "no Pix"
+      },
+      "parcelamento": {
+        "quantidade": 10,
+        "valor": "246.90",
+        "juros": false
+      },
+      "referencia": null,
+      "variacao": null,
+      "checado_em": "2026-11-09T09:14:00-03:00",
+      "checado_via": "página do produto na KaBuM",
+      "veredito": {
+        "tipo": "sem_base",
+        "motivo": "Vendido pela Lenovo dentro da KaBuM e em estoque. Sem referência de mercado registrada para este modelo, não há base para dizer se o preço está bom.",
+        "base": "KaBuM, 09/11/2026 09:14; sem referência de mercado"
+      },
+      "como_chegar": [
+        {
+          "rotulo": "Por código KaBuM",
+          "texto": "1048783"
+        },
+        {
+          "rotulo": "Por código do modelo",
+          "texto": "ZAFR0953BR"
+        }
+      ]
     }
   ],
   "coleta": {
     "fontes_consultadas": [
       "KaBuM",
       "Fast Shop",
-      "Samsung",
       "Magalu",
       "Casas Bahia",
       "Amazon.com.br",
@@ -1098,35 +1097,34 @@
       "Pelando"
     ],
     "notas": [
-      "Funcionou: a KaBuM abriu pelo terminal (50 páginas de produto distintas, todas com dados, e 23 listagens de busca), a Fast Shop respondeu pela busca pública do catálogo (10 consultas por código e 10 por termo) e a loja Samsung respondeu pelo catálogo público (shop.samsung.com).",
-      "Falhou: Magalu e Casas Bahia recusaram a ferramenta de páginas e o curl (403); Americanas, Extra e samsung.com/br não responderam na rede do ambiente; para Magalu, Casas Bahia, Amazon e Mercado Livre valeu só o resumo de busca, sem data de captura.",
-      "Mudanças desde 07/11/2026: na KaBuM a campanha \"Esquenta 11do11 Pay Day\" saiu de três consoles: o PS5 Edição Digital com Astro Bot e Gran Turismo 7 (989702) subiu de R$ 4.146,87 para R$ 4.364,03, o PS5 com leitor de discos, Astro Bot e Gran Turismo 7 (934759) de R$ 4.537,47 para R$ 5.114,07 e o PS5 Slim Digital da Loja Gazin (1004851) de R$ 3.899,00 para R$ 6.145,45, todos no Pix. Os demais preços publicados não mudaram.",
-      "Saíram pelo limite de 8 o 934759 (KaBuM, R$ 5.114,07, +0,3% do sugerido Sony) e o 1004851 (Loja Gazin, R$ 6.145,45); entraram o PS5 com leitor de discos 1TB da Webfones na Fast Shop (173286, R$ 4.464,06) e o PS5 Slim com leitor de discos 1TB da Negociun na Fast Shop (187040, R$ 4.819,00), novo no catálogo.",
-      "As decisões pendentes de aprovação seguem as mesmas: Magalu na KaBuM, Lenovo Brasil na Fast Shop e referências para tablets sem referência."
+      "Funcionou: a KaBuM abriu pelo terminal (53 páginas de produto distintas, todas com dados, e 24 listagens de busca) e a Fast Shop respondeu pela busca pública do catálogo (18 consultas por termo e por código).",
+      "Falhou: Magalu e Casas Bahia recusaram a ferramenta de páginas e o curl (403); Americanas, Extra e a loja Samsung (shop.samsung.com) não responderam na rede do ambiente; para Magalu, Casas Bahia, Amazon e Mercado Livre valeu só o resumo de busca, sem data de captura.",
+      "Mudanças desde 08/11/2026: na KaBuM a campanha \"Esquenta 11do11\" voltou a dois consoles: o PS5 Edição Digital com Astro Bot e Gran Turismo 7 (989702) caiu de R$ 4.364,03 para R$ 4.277,07 e o PS5 com leitor de discos, Astro Bot e Gran Turismo 7 (934759) de R$ 5.114,07 para R$ 4.742,07, ambos no Pix; o PS5 Slim Digital vendido pela Magalu (939944) caiu de R$ 4.369,08 para R$ 4.356,93; o Acer Aspire Go (953007) e o Galaxy Book4 (586453) subiram para R$ 3.329,10.",
+      "Entrou o PS5 com leitor de discos, Astro Bot e Gran Turismo 7 da KaBuM (934759), agora \"comprar\"; saiu pelo limite de 8 o PS5 Slim com leitor de discos 1TB da Negociun na Fast Shop (187040, R$ 4.819,00). A loja Samsung não respondeu e o Galaxy Tab S10 Lite não foi revalidado.",
+      "As decisões pendentes de aprovação seguem as mesmas: Magalu na KaBuM, Lenovo Brasil na Fast Shop e referências para tablets sem referência; nova: Redmi Pad 2 da CELCOMERCE na KaBuM, com indício de versão importada."
     ],
     "metricas": {
-      "inicio": "2026-11-08T09:07:51-03:00",
-      "fim": "2026-11-08T09:13:39-03:00",
-      "buscas": 51,
-      "paginas_abertas": 98,
+      "inicio": "2026-11-09T09:12:29-03:00",
+      "fim": "2026-11-09T09:16:41-03:00",
+      "buscas": 54,
+      "paginas_abertas": 99,
       "candidatos": 36,
       "publicadas": 24,
       "por_evidencia": {
-        "pagina_produto": 16,
-        "listagem_loja": 7,
+        "pagina_produto": 17,
+        "listagem_loja": 6,
         "busca_loja": 1,
         "agregador": 0
       },
-      "fonte_verificada": 5,
+      "fonte_verificada": 6,
       "acesso": {
         "kabum.com.br": "ok",
         "fastshop.com.br": "ok",
-        "shop.samsung.com": "ok",
         "magazineluiza.com.br": "bloqueado",
         "casasbahia.com.br": "bloqueado",
         "americanas.com.br": "erro",
         "extra.com.br": "erro",
-        "samsung.com": "erro"
+        "shop.samsung.com": "erro"
       }
     }
   }
